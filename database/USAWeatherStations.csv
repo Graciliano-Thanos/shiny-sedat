@@ -1,0 +1,941 @@
+,filename,Source,Location_I,City,State,Country,Latitude,Longitude,Time_Zone,Elevation
+0,USA MN Hutchinson (awos) (TMY3).csv,TMY3,726569,Hutchinson (awos),MN,USA,44.867,-94.383,-6,323
+1,USA UT Vernal (TMY3).csv,TMY3,725705,Vernal,UT,USA,40.433,-109.517,-7,1608
+2,USA AR Flippin (awos) (TMY3).csv,TMY3,723447,Flippin (awos),AR,USA,36.3,-92.467,-6,350
+3,USA OK Bartlesville Philli (TMY3).csv,TMY3,723565,Bartlesville Philli,OK,USA,36.767,-96.017,-6,218
+4,USA IA Ottumwa Industrial Ap (TMY3).csv,TMY3,725465,Ottumwa Industrial Ap,IA,USA,41.1,-92.45,-6,257
+5,USA FL Fort Lauderdale Hollywood Int (TMY3).csv,TMY3,722025,Fort Lauderdale Hollywood Int,FL,USA,26.067,-80.15,-5,3
+6,USA SC Greenville Downtown Ap (TMY3).csv,TMY3,723119,Greenville Downtown Ap,SC,USA,34.85,-82.35,-5,319
+7,USA GA Savannah Intl Ap (TMY3).csv,TMY3,722070,Savannah Intl Ap,GA,USA,32.117,-81.2,-5,14
+8,USA SC Columbia Metro Arpt (TMY3).csv,TMY3,723100,Columbia Metro Arpt,SC,USA,33.95,-81.117,-5,65
+9,USA AL Muscle Shoals Regional Ap (TMY3).csv,TMY3,723235,Muscle Shoals Regional Ap,AL,USA,34.75,-87.6,-6,165
+10,USA PA Lancaster (TMY3).csv,TMY3,725116,Lancaster,PA,USA,40.117,-76.3,-5,126
+11,USA FL Mayport Ns (TMY3).csv,TMY3,722066,Mayport Ns,FL,USA,30.4,-81.417,-5,5
+12,USA VT Rutland State (TMY3).csv,TMY3,725165,Rutland State,VT,USA,43.517,-72.95,-5,246
+13,USA TN Knoxville Mcghee Tyson Ap (TMY3).csv,TMY3,723260,Knoxville Mcghee Tyson Ap,TN,USA,35.817,-83.983,-5,293
+14,USA GA Fort Benning Lawson (TMY3).csv,TMY3,722250,Fort Benning Lawson,GA,USA,32.35,-85.0,-6,88
+15,USA MO Kansas City Downtown Ap (TMY3).csv,TMY3,724463,Kansas City Downtown Ap,MO,USA,39.117,-94.6,-6,226
+16,USA CA Lompoc (awos) (TMY3).csv,TMY3,722895,Lompoc (awos),CA,USA,34.667,-120.467,-8,27
+17,USA WA The Dalles Municipal Arpt (TMY3).csv,TMY3,726988,The Dalles Municipal Arpt,WA,USA,45.617,-121.15,-8,73
+18,USA FL Nasa Shuttle Fclty (TMY3).csv,TMY3,747946,Nasa Shuttle Fclty,FL,USA,28.617,-80.717,-5,3
+19,USA VA Dinwiddie Co (TMY3).csv,TMY3,724014,Dinwiddie Co,VA,USA,37.183,-77.517,-5,60
+20,USA GA Macon Middle Ga Regional Ap (TMY3).csv,TMY3,722170,Macon Middle Ga Regional Ap,GA,USA,32.683,-83.65,-5,108
+21,USA MT Havre City-county Ap (TMY3).csv,TMY3,727770,Havre City-county Ap,MT,USA,48.55,-109.767,-7,788
+22,USA VT Montpelier Ap (TMY3).csv,TMY3,726145,Montpelier Ap,VT,USA,44.2,-72.567,-5,343
+23,USA CO Limon (TMY3).csv,TMY3,724665,Limon,CO,USA,39.183,-103.717,-7,1695
+24,USA TN Bristol Tri City Airport (TMY3).csv,TMY3,723183,Bristol Tri City Airport,TN,USA,36.467,-82.4,-5,457
+25,USA OH Cincinnati Municipal Ap Lunki (TMY3).csv,TMY3,724297,Cincinnati Municipal Ap Lunki,OH,USA,39.1,-84.417,-5,149
+26,USA IA Oelwen (TMY3).csv,TMY3,725488,Oelwen,IA,USA,42.683,-91.967,-6,328
+27,USA CA San Diego Miramar Nas (TMY3).csv,TMY3,722930,San Diego Miramar Nas,CA,USA,32.867,-117.133,-8,140
+28,USA MI Cadillac Wexford Co Ap (TMY3).csv,TMY3,726384,Cadillac Wexford Co Ap,MI,USA,44.283,-85.417,-5,396
+29,USA MN Grand Rapids(awos) (TMY3).csv,TMY3,727458,Grand Rapids(awos),MN,USA,47.217,-93.517,-6,413
+30,USA NJ Cape May Co (TMY3).csv,TMY3,745966,Cape May Co,NJ,USA,39.0,-74.917,-5,7
+31,USA ID Caldwell (awos) (TMY3).csv,TMY3,726813,Caldwell (awos),ID,USA,43.633,-116.633,-7,740
+32,USA WI Eau Claire County Ap (TMY3).csv,TMY3,726435,Eau Claire County Ap,WI,USA,44.867,-91.483,-6,271
+33,USA NC Southern Pines Awos (TMY3).csv,TMY3,723143,Southern Pines Awos,NC,USA,35.233,-79.4,-5,141
+34,USA CA Alturas (TMY3).csv,TMY3,725958,Alturas,CA,USA,41.5,-120.533,-8,1341
+35,USA AR Fort Smith Regional Ap (TMY3).csv,TMY3,723440,Fort Smith Regional Ap,AR,USA,35.333,-94.367,-6,137
+36,USA FL Tallahassee Regional Ap [isis] (TMY3).csv,TMY3,722140,Tallahassee Regional Ap [isis],FL,USA,30.38,-84.37,-5,21
+37,USA WA Ephrata Ap Fcwos (TMY3).csv,TMY3,727826,Ephrata Ap Fcwos,WA,USA,47.3,-119.517,-8,384
+38,USA CA Porterville (awos) (TMY3).csv,TMY3,723895,Porterville (awos),CA,USA,36.033,-119.067,-8,135
+39,USA NE Mccook Municipal (TMY3).csv,TMY3,725625,Mccook Municipal,NE,USA,40.2,-100.583,-6,786
+40,USA OH Burke Lakefront (TMY3).csv,TMY3,725245,Burke Lakefront,OH,USA,41.517,-81.683,-5,182
+41,USA PR Mercedita (TMY3).csv,TMY3,785203,Mercedita,PR,USA,18.0,-66.55,-4,8
+42,USA CA Point Mugu Nf (TMY3).csv,TMY3,723910,Point Mugu Nf,CA,USA,34.117,-119.117,-8,3
+43,USA MA Otis Angb (TMY3).csv,TMY3,725060,Otis Angb,MA,USA,41.65,-70.517,-5,40
+44,USA NE Brewster Field Arpt (TMY3).csv,TMY3,725628,Brewster Field Arpt,NE,USA,40.45,-99.333,-6,704
+45,USA PA Johnstown Cambria County Ap (TMY3).csv,TMY3,725127,Johnstown Cambria County Ap,PA,USA,40.317,-78.833,-5,695
+46,USA WI Marshfield Muni (TMY3).csv,TMY3,726574,Marshfield Muni,WI,USA,44.633,-90.183,-6,389
+47,USA ND Williston Sloulin Intl Ap (TMY3).csv,TMY3,727670,Williston Sloulin Intl Ap,ND,USA,48.2,-103.65,-6,580
+48,USA NJ Caldwell Essex Co. (TMY3).csv,TMY3,724094,Caldwell Essex Co.,NJ,USA,40.883,-74.283,-5,53
+49,USA WY Sheridan County Arpt (TMY3).csv,TMY3,726660,Sheridan County Arpt,WY,USA,44.767,-106.967,-7,1208
+50,USA OH Toledo Express Airport (TMY3).csv,TMY3,725360,Toledo Express Airport,OH,USA,41.583,-83.8,-5,204
+51,USA VA Marion   Wytheville (TMY3).csv,TMY3,724056,Marion   Wytheville,VA,USA,36.9,-81.35,-5,780
+52,USA VA Lynchburg Regional Arpt (TMY3).csv,TMY3,724100,Lynchburg Regional Arpt,VA,USA,37.333,-79.2,-5,286
+53,USA OH Dayton International Airport (TMY3).csv,TMY3,724290,Dayton International Airport,OH,USA,39.9,-84.217,-5,305
+54,USA NH Mount Washington (TMY3).csv,TMY3,726130,Mount Washington,NH,USA,44.267,-71.3,-5,1910
+55,USA ID Malad City (TMY3).csv,TMY3,725786,Malad City,ID,USA,42.15,-112.283,-7,1362
+56,USA OK Tulsa International Airport (TMY3).csv,TMY3,723560,Tulsa International Airport,OK,USA,36.2,-95.883,-6,198
+57,USA WV Martinsburg Eastern Wv Reg Ap (TMY3).csv,TMY3,724177,Martinsburg Eastern Wv Reg Ap,WV,USA,39.4,-77.983,-5,162
+58,USA KS Newton (awos) (TMY3).csv,TMY3,724509,Newton (awos),KS,USA,38.05,-97.283,-6,467
+59,USA NV Lovelock Derby Field (TMY3).csv,TMY3,725805,Lovelock Derby Field,NV,USA,40.067,-118.55,-8,1189
+60,USA MO Kaiser Mem (awos) (TMY3).csv,TMY3,724459,Kaiser Mem (awos),MO,USA,38.1,-92.55,-6,265
+61,USA WA Renton Muni (TMY3).csv,TMY3,727934,Renton Muni,WA,USA,47.483,-122.217,-8,10
+62,USA PA Williamsport Regional Ap (TMY3).csv,TMY3,725140,Williamsport Regional Ap,PA,USA,41.25,-76.917,-5,158
+63,USA UT Wendover Usaf Auxiliary Field (TMY3).csv,TMY3,725810,Wendover Usaf Auxiliary Field,UT,USA,40.717,-114.033,-8,1291
+64,USA IA Monticello Muni (TMY3).csv,TMY3,725475,Monticello Muni,IA,USA,42.233,-91.167,-6,259
+65,USA NY Buffalo Niagara Intl Ap (TMY3).csv,TMY3,725280,Buffalo Niagara Intl Ap,NY,USA,42.933,-78.733,-5,215
+66,USA MN Roseau Muni (awos) (TMY3).csv,TMY3,727477,Roseau Muni (awos),MN,USA,48.85,-95.7,-6,323
+67,USA CA Twentynine Palms (TMY3).csv,TMY3,690150,Twentynine Palms,CA,USA,34.3,-116.167,-8,626
+68,USA KS Liberal Muni (TMY3).csv,TMY3,724516,Liberal Muni,KS,USA,37.033,-100.967,-6,901
+69,USA ME Auburn-lewiston (TMY3).csv,TMY3,726184,Auburn-lewiston,ME,USA,44.05,-70.283,-5,88
+70,USA GA Warner Robins Afb (TMY3).csv,TMY3,722175,Warner Robins Afb,GA,USA,32.633,-83.6,-5,92
+71,USA WY Laramie General Brees Field (TMY3).csv,TMY3,725645,Laramie General Brees Field,WY,USA,41.317,-105.683,-7,2215
+72,USA WI Milwaukee Mitchell Intl Ap (TMY3).csv,TMY3,726400,Milwaukee Mitchell Intl Ap,WI,USA,42.95,-87.9,-6,205
+73,USA TX Midland International Ap (TMY3).csv,TMY3,722650,Midland International Ap,TX,USA,31.95,-102.183,-6,872
+74,USA NC Winston-salem Reynolds Ap (TMY3).csv,TMY3,723193,Winston-salem Reynolds Ap,NC,USA,36.133,-80.217,-5,296
+75,USA NE Lincoln Municipal Arpt (TMY3).csv,TMY3,725510,Lincoln Municipal Arpt,NE,USA,40.833,-96.767,-6,357
+76,USA FL Pensacola Regional Ap (TMY3).csv,TMY3,722223,Pensacola Regional Ap,FL,USA,30.483,-87.183,-6,34
+77,USA AZ Flagstaff Pulliam Arpt (TMY3).csv,TMY3,723755,Flagstaff Pulliam Arpt,AZ,USA,35.133,-111.667,-7,2132
+78,USA MN Hallock (TMY3).csv,TMY3,727478,Hallock,MN,USA,48.783,-96.95,-6,250
+79,USA PA Wilkes-barre Scranton Intl Ap (TMY3).csv,TMY3,725130,Wilkes-barre Scranton Intl Ap,PA,USA,41.333,-75.733,-5,284
+80,USA KS Wichita Mid-continent Ap (TMY3).csv,TMY3,724500,Wichita Mid-continent Ap,KS,USA,37.65,-97.433,-6,402
+81,USA MI Traverse City Cherry Capital (TMY3).csv,TMY3,726387,Traverse City Cherry Capital,MI,USA,44.733,-85.583,-5,188
+82,USA DE Wilmington New Castle Cnty Ap (TMY3).csv,TMY3,724089,Wilmington New Castle Cnty Ap,DE,USA,39.667,-75.6,-5,23
+83,USA VA Washington Dc Reagan Ap (TMY3).csv,TMY3,724050,Washington Dc Reagan Ap,VA,USA,38.867,-77.033,-5,3
+84,USA FL Crestview Bob Sikes Ap (TMY3).csv,TMY3,722215,Crestview Bob Sikes Ap,FL,USA,30.783,-86.517,-6,58
+85,USA ME Northern Aroostook (TMY3).csv,TMY3,726083,Northern Aroostook,ME,USA,47.283,-68.317,-5,309
+86,USA CA Monterey Naf (TMY3).csv,TMY3,724915,Monterey Naf,CA,USA,36.6,-121.867,-8,50
+87,USA MD Hagerstown Rgnl Ric (TMY3).csv,TMY3,724066,Hagerstown Rgnl Ric,MD,USA,39.7,-77.733,-5,220
+88,USA TX Robert Gray Aaf (TMY3).csv,TMY3,722576,Robert Gray Aaf,TX,USA,31.067,-97.833,-6,312
+89,USA MA Provincetown (awos) (TMY3).csv,TMY3,725073,Provincetown (awos),MA,USA,42.067,-70.217,-5,2
+90,USA KS Manhattan Rgnl (TMY3).csv,TMY3,724555,Manhattan Rgnl,KS,USA,39.133,-96.667,-6,330
+91,USA KS Hill City Municipal Ap (TMY3).csv,TMY3,724655,Hill City Municipal Ap,KS,USA,39.383,-99.833,-6,667
+92,USA MN Silver Bay (TMY3).csv,TMY3,727556,Silver Bay,MN,USA,47.2,-91.4,-6,331
+93,USA MN Worthington (awos) (TMY3).csv,TMY3,726587,Worthington (awos),MN,USA,43.65,-95.583,-6,480
+94,USA NH Laconia Muni (awos) (TMY3).csv,TMY3,726155,Laconia Muni (awos),NH,USA,43.567,-71.417,-5,166
+95,USA AZ Douglas Bisbee-douglas Intl A (TMY3).csv,TMY3,722735,Douglas Bisbee-douglas Intl A,AZ,USA,31.467,-109.6,-7,1249
+96,USA WY Lander Hunt Field (TMY3).csv,TMY3,725760,Lander Hunt Field,WY,USA,42.817,-108.733,-7,1694
+97,USA AZ Davis Monthan Afb (TMY3).csv,TMY3,722745,Davis Monthan Afb,AZ,USA,32.167,-110.883,-7,809
+98,USA PA Erie International Ap (TMY3).csv,TMY3,725260,Erie International Ap,PA,USA,42.083,-80.183,-5,222
+99,USA WA Pasco (TMY3).csv,TMY3,727845,Pasco,WA,USA,46.267,-119.117,-8,136
+100,USA KY Paducah Barkley Regional Ap (TMY3).csv,TMY3,724350,Paducah Barkley Regional Ap,KY,USA,37.05,-88.767,-6,124
+101,USA WA Stampede Pass (TMY3).csv,TMY3,727815,Stampede Pass,WA,USA,47.283,-121.333,-8,1206
+102,USA PA Altoona Blair Co Arpt (TMY3).csv,TMY3,725126,Altoona Blair Co Arpt,PA,USA,40.3,-78.317,-5,451
+103,USA AZ Kingman (amos) (TMY3).csv,TMY3,723700,Kingman (amos),AZ,USA,35.267,-113.95,-7,1033
+104,USA WI Madison Dane Co Regional Arpt [isis] (TMY3).csv,TMY3,726410,Madison Dane Co Regional Arpt [isis],WI,USA,43.13,-89.33,-6,262
+105,USA KS Garden City Municipal Ap (TMY3).csv,TMY3,724515,Garden City Municipal Ap,KS,USA,37.933,-100.717,-6,878
+106,USA VT Burlington International Ap (TMY3).csv,TMY3,726170,Burlington International Ap,VT,USA,44.467,-73.15,-5,101
+107,USA CO La Junta Municipal Ap (TMY3).csv,TMY3,724635,La Junta Municipal Ap,CO,USA,38.05,-103.533,-7,1281
+108,USA IA Chariton (TMY3).csv,TMY3,725469,Chariton,IA,USA,41.033,-93.367,-6,320
+109,USA CA Stockton Metropolitan Arpt (TMY3).csv,TMY3,724920,Stockton Metropolitan Arpt,CA,USA,37.9,-121.233,-8,7
+110,USA AL Birmingham Municipal Ap (TMY3).csv,TMY3,722280,Birmingham Municipal Ap,AL,USA,33.567,-86.75,-6,189
+111,USA IA Fort Madison (TMY3).csv,TMY3,725483,Fort Madison,IA,USA,40.667,-91.333,-6,221
+112,USA PA Pittsburgh Allegheny Co Ap (TMY3).csv,TMY3,725205,Pittsburgh Allegheny Co Ap,PA,USA,40.35,-79.917,-5,380
+113,USA WA Fairchild Afb (TMY3).csv,TMY3,727855,Fairchild Afb,WA,USA,47.633,-117.65,-8,743
+114,USA NJ Trenton Mercer County Ap (TMY3).csv,TMY3,724095,Trenton Mercer County Ap,NJ,USA,40.283,-74.817,-5,65
+115,USA WA Felts Fld (TMY3).csv,TMY3,727856,Felts Fld,WA,USA,47.683,-117.317,-8,610
+116,USA TX Cotulla Faa Ap (TMY3).csv,TMY3,722526,Cotulla Faa Ap,TX,USA,28.45,-99.217,-6,141
+117,USA AR Jonesboro Muni (TMY3).csv,TMY3,723407,Jonesboro Muni,AR,USA,35.833,-90.65,-6,82
+118,USA NV Tonopah Airport (TMY3).csv,TMY3,724855,Tonopah Airport,NV,USA,38.067,-117.083,-8,1655
+119,USA WV Huntington Tri-state Arpt (TMY3).csv,TMY3,724250,Huntington Tri-state Arpt,WV,USA,38.383,-82.55,-5,253
+120,USA MT Glasgow Intl Arpt (TMY3).csv,TMY3,727680,Glasgow Intl Arpt,MT,USA,48.217,-106.617,-7,699
+121,USA FL Marathon Airport (TMY3).csv,TMY3,722016,Marathon Airport,FL,USA,24.733,-81.05,-5,2
+122,USA NE Grand Island Central Ne Regio (TMY3).csv,TMY3,725520,Grand Island Central Ne Regio,NE,USA,40.967,-98.317,-6,561
+123,USA TX Mc Gregor (awos) (TMY3).csv,TMY3,722563,Mc Gregor (awos),TX,USA,31.483,-97.317,-6,180
+124,USA MI Flint Bishop Intl Arpt (TMY3).csv,TMY3,726370,Flint Bishop Intl Arpt,MI,USA,42.967,-83.75,-5,234
+125,USA NE Valentine Miller Field (TMY3).csv,TMY3,725670,Valentine Miller Field,NE,USA,42.867,-100.55,-6,789
+126,USA NE Ord Sharp Field (TMY3).csv,TMY3,725524,Ord Sharp Field,NE,USA,41.617,-98.95,-6,631
+127,USA CA South Lake Tahoe (TMY3).csv,TMY3,725847,South Lake Tahoe,CA,USA,38.9,-120.0,-8,1909
+128,USA VA Newport News (TMY3).csv,TMY3,723086,Newport News,VA,USA,37.133,-76.5,-5,13
+129,USA CT Bridgeport Sikorsky Memorial (TMY3).csv,TMY3,725040,Bridgeport Sikorsky Memorial,CT,USA,41.183,-73.15,-5,3
+130,USA NM Truth Or Consequences Muni Ap (TMY3).csv,TMY3,722710,Truth Or Consequences Muni Ap,NM,USA,33.233,-107.267,-7,1478
+131,USA MS Meridian Naas (TMY3).csv,TMY3,722345,Meridian Naas,MS,USA,32.55,-88.567,-6,83
+132,USA TN Jackson Mckellar-sipes Regl A (TMY3).csv,TMY3,723346,Jackson Mckellar-sipes Regl A,TN,USA,35.6,-88.917,-6,132
+133,USA MN Albert Lea (awos) (TMY3).csv,TMY3,726589,Albert Lea (awos),MN,USA,43.683,-93.367,-6,383
+134,USA UT Ogden Hinkley Airport (TMY3).csv,TMY3,725750,Ogden Hinkley Airport,UT,USA,41.2,-112.017,-7,1362
+135,USA WV Harrison Marion Rgn (TMY3).csv,TMY3,724175,Harrison Marion Rgn,WV,USA,39.283,-80.233,-5,380
+136,USA NC Cape Hatteras Nws Bldg (TMY3).csv,TMY3,723040,Cape Hatteras Nws Bldg,NC,USA,35.267,-75.55,-5,3
+137,USA NH Berlin Municipal (TMY3).csv,TMY3,726160,Berlin Municipal,NH,USA,44.583,-71.183,-5,353
+138,USA ND Dickinson Municipal Ap (TMY3).csv,TMY3,727645,Dickinson Municipal Ap,ND,USA,46.8,-102.8,-7,788
+139,USA OK Clinton-sherman (TMY3).csv,TMY3,723526,Clinton-sherman,OK,USA,35.333,-99.2,-6,586
+140,USA MT Miles City Municipal Arpt (TMY3).csv,TMY3,742300,Miles City Municipal Arpt,MT,USA,46.433,-105.883,-7,801
+141,USA TX El Paso International Ap [ut] (TMY3).csv,TMY3,722700,El Paso International Ap [ut],TX,USA,31.77,-106.5,-7,1186
+142,USA CA Yuba Co (TMY3).csv,TMY3,724838,Yuba Co,CA,USA,39.1,-121.567,-8,19
+143,USA FL Gainesville Regional Ap (TMY3).csv,TMY3,722146,Gainesville Regional Ap,FL,USA,29.7,-82.283,-5,41
+144,USA NJ Newark International Arpt (TMY3).csv,TMY3,725020,Newark International Arpt,NJ,USA,40.717,-74.183,-5,3
+145,USA LA Shreveport Regional Arpt (TMY3).csv,TMY3,722480,Shreveport Regional Arpt,LA,USA,32.45,-93.817,-6,77
+146,USA NE Tekamah (asos) (TMY3).csv,TMY3,725527,Tekamah (asos),NE,USA,41.767,-96.167,-6,312
+147,USA CA Mountain View Moffett Fld Nas (TMY3).csv,TMY3,745090,Mountain View Moffett Fld Nas,CA,USA,37.4,-122.05,-8,12
+148,USA OR Lakeview (awos) (TMY3).csv,TMY3,725976,Lakeview (awos),OR,USA,42.167,-120.4,-8,1441
+149,USA WI Rhinelander Oneida (TMY3).csv,TMY3,727415,Rhinelander Oneida,WI,USA,45.633,-89.467,-6,507
+150,USA LA New Orleans Alvin Callender F (TMY3).csv,TMY3,722316,New Orleans Alvin Callender F,LA,USA,29.817,-90.017,-6,2
+151,USA CA Beale Afb (TMY3).csv,TMY3,724837,Beale Afb,CA,USA,39.133,-121.433,-8,38
+152,USA CO Craig-moffat (TMY3).csv,TMY3,725700,Craig-moffat,CO,USA,40.5,-107.533,-7,1915
+153,USA MA Plymouth Municipal (TMY3).csv,TMY3,725064,Plymouth Municipal,MA,USA,41.917,-70.733,-5,45
+154,USA KS Great Bend (awos) (TMY3).csv,TMY3,724517,Great Bend (awos),KS,USA,38.35,-98.867,-6,575
+155,USA MA Barnstable Muni Boa (TMY3).csv,TMY3,725067,Barnstable Muni Boa,MA,USA,41.667,-70.283,-5,17
+156,USA NY Glens Falls Ap (TMY3).csv,TMY3,725185,Glens Falls Ap,NY,USA,43.35,-73.617,-5,98
+157,USA CA Lancaster Gen Wm Fox Field (TMY3).csv,TMY3,723816,Lancaster Gen Wm Fox Field,CA,USA,34.733,-118.217,-8,713
+158,USA CA Fresno Yosemite Intl Ap (TMY3).csv,TMY3,723890,Fresno Yosemite Intl Ap,CA,USA,36.783,-119.717,-8,102
+159,USA FL Whiting Field Naas (TMY3).csv,TMY3,722226,Whiting Field Naas,FL,USA,30.717,-87.017,-6,54
+160,USA NH Dillant Hopkins (TMY3).csv,TMY3,726165,Dillant Hopkins,NH,USA,42.9,-72.267,-5,153
+161,USA FL Jacksonville Nas (TMY3).csv,TMY3,722065,Jacksonville Nas,FL,USA,30.233,-81.667,-5,9
+162,USA OR Eugene Mahlon Sweet Arpt [uo] (TMY3).csv,TMY3,726930,Eugene Mahlon Sweet Arpt [uo],OR,USA,44.05,-123.07,-8,109
+163,USA KY London-corbin Ap (TMY3).csv,TMY3,724243,London-corbin Ap,KY,USA,37.083,-84.083,-5,362
+164,USA TX Corpus Christi Nas (TMY3).csv,TMY3,722515,Corpus Christi Nas,TX,USA,27.683,-97.283,-6,6
+165,USA MA Nantucket Memorial Ap (TMY3).csv,TMY3,725063,Nantucket Memorial Ap,MA,USA,41.25,-70.067,-5,14
+166,USA WI Manitowac Muni Awos (TMY3).csv,TMY3,726455,Manitowac Muni Awos,WI,USA,44.133,-87.683,-6,198
+167,USA UT Provo Muni (awos) (TMY3).csv,TMY3,725724,Provo Muni (awos),UT,USA,40.217,-111.717,-7,1369
+168,USA PR San Juan Intl Arpt (TMY3).csv,TMY3,785260,San Juan Intl Arpt,PR,USA,18.417,-66.0,-4,19
+169,USA HI Honolulu Intl Arpt (TMY3).csv,TMY3,911820,Honolulu Intl Arpt,HI,USA,21.317,-157.933,-10,2
+170,USA IA Washington (TMY3).csv,TMY3,725454,Washington,IA,USA,41.283,-91.667,-6,230
+171,USA TX Greenville Majors (TMY3).csv,TMY3,722588,Greenville Majors,TX,USA,33.067,-96.067,-6,163
+172,USA MS Tupelo C D Lemons Arpt (TMY3).csv,TMY3,723320,Tupelo C D Lemons Arpt,MS,USA,34.267,-88.767,-6,110
+173,USA ID Idaho Falls Fanning Field (TMY3).csv,TMY3,725785,Idaho Falls Fanning Field,ID,USA,43.517,-112.067,-7,1441
+174,USA MT Lewistown Municipal Arpt (TMY3).csv,TMY3,726776,Lewistown Municipal Arpt,MT,USA,47.05,-109.45,-7,1263
+175,USA GA Dekalb Peachtree (TMY3).csv,TMY3,722196,Dekalb Peachtree,GA,USA,33.867,-84.3,-5,313
+176,USA NV Las Vegas Mccarran Intl Ap (TMY3).csv,TMY3,723860,Las Vegas Mccarran Intl Ap,NV,USA,36.083,-115.15,-8,648
+177,USA PA State College [penn State - Surfrad] (TMY3).csv,TMY3,725128,State College [penn State - Surfrad],PA,USA,40.72,-77.93,-5,376
+178,USA NH Concord Municipal Arpt (TMY3).csv,TMY3,726050,Concord Municipal Arpt,NH,USA,43.2,-71.5,-5,106
+179,USA FL St Lucie Co Intl (TMY3).csv,TMY3,722103,St Lucie Co Intl,FL,USA,27.483,-80.367,-5,7
+180,USA NE Kearney Muni (awos) (TMY3).csv,TMY3,725526,Kearney Muni (awos),NE,USA,40.733,-99.0,-6,649
+181,USA CO Broomfield Jeffco [boulder - Surfrad] (TMY3).csv,TMY3,724699,Broomfield Jeffco [boulder - Surfrad],CO,USA,40.13,-105.24,-7,1689
+182,USA MN Two Harbors (TMY3).csv,TMY3,727444,Two Harbors,MN,USA,47.05,-91.75,-6,328
+183,USA CA Paso Robles Municipal Arpt (TMY3).csv,TMY3,723965,Paso Robles Municipal Arpt,CA,USA,35.667,-120.633,-8,244
+184,USA TX Fort Worth Meacham (TMY3).csv,TMY3,722596,Fort Worth Meacham,TX,USA,32.817,-97.367,-6,209
+185,USA TX Fort Hood (TMY3).csv,TMY3,722570,Fort Hood,TX,USA,31.133,-97.717,-6,280
+186,USA WA Toledo-winlock Mem (TMY3).csv,TMY3,727926,Toledo-winlock Mem,WA,USA,46.483,-122.8,-8,113
+187,USA WA Hoquiam Ap (TMY3).csv,TMY3,727923,Hoquiam Ap,WA,USA,46.983,-123.933,-8,4
+188,USA CO Montrose Co. Arpt (TMY3).csv,TMY3,724765,Montrose Co. Arpt,CO,USA,38.5,-107.9,-7,1755
+189,USA CA Concord Concord-buchanan Fiel (TMY3).csv,TMY3,724936,Concord Concord-buchanan Fiel,CA,USA,38.0,-122.05,-8,7
+190,USA MD Baltimore Blt-washngtn Int'l (TMY3).csv,TMY3,724060,Baltimore Blt-washngtn Int'l,MD,USA,39.167,-76.683,-5,45
+191,USA CA Bakersfield Meadows Field (TMY3).csv,TMY3,723840,Bakersfield Meadows Field,CA,USA,35.433,-119.05,-8,149
+192,USA AR Stuttgart (awos) (TMY3).csv,TMY3,723416,Stuttgart (awos),AR,USA,34.6,-91.567,-6,68
+193,USA MO Ft Lnrd Wd Aaf (TMY3).csv,TMY3,724457,Ft Lnrd Wd Aaf,MO,USA,37.75,-92.15,-6,351
+194,USA FL St Petersburg Albert Whitted (TMY3).csv,TMY3,722104,St Petersburg Albert Whitted,FL,USA,27.767,-82.633,-5,2
+195,USA OK Mcalester Municipal Ap (TMY3).csv,TMY3,723566,Mcalester Municipal Ap,OK,USA,34.9,-95.783,-6,232
+196,USA WV Lewisburg Greenbrie (TMY3).csv,TMY3,724127,Lewisburg Greenbrie,WV,USA,37.867,-80.4,-5,702
+197,USA NE Chadron Municipal Ap (TMY3).csv,TMY3,725636,Chadron Municipal Ap,NE,USA,42.833,-103.083,-7,1011
+198,USA UT Hanksville (TMY3).csv,TMY3,724735,Hanksville,UT,USA,38.367,-110.717,-7,1313
+199,USA MO Cape Girardeau Municipal Ap (TMY3).csv,TMY3,723489,Cape Girardeau Municipal Ap,MO,USA,37.233,-89.567,-6,103
+200,USA IL Belleville Scott Afb (TMY3).csv,TMY3,724338,Belleville Scott Afb,IL,USA,38.55,-89.85,-6,135
+201,USA WA Hanford (TMY3).csv,TMY3,727840,Hanford,WA,USA,46.567,-119.6,-8,223
+202,USA IA Creston (TMY3).csv,TMY3,725474,Creston,IA,USA,41.017,-94.367,-6,394
+203,USA TN Dyersburg Municipal Ap (TMY3).csv,TMY3,723347,Dyersburg Municipal Ap,TN,USA,36.017,-89.4,-6,103
+204,USA KS Russell Municipal Ap (TMY3).csv,TMY3,724585,Russell Municipal Ap,KS,USA,38.883,-98.817,-6,566
+205,USA KY Henderson City (TMY3).csv,TMY3,724238,Henderson City,KY,USA,37.817,-87.683,-6,117
+206,USA AR Texarkana Webb Field (TMY3).csv,TMY3,723418,Texarkana Webb Field,AR,USA,33.45,-94.0,-6,110
+207,USA MT Great Falls Intl Arpt (TMY3).csv,TMY3,727750,Great Falls Intl Arpt,MT,USA,47.467,-111.383,-7,1117
+208,USA OH Cleveland Hopkins Intl Ap (TMY3).csv,TMY3,725240,Cleveland Hopkins Intl Ap,OH,USA,41.4,-81.85,-5,235
+209,USA VA Norfolk International Ap (TMY3).csv,TMY3,723080,Norfolk International Ap,VA,USA,36.9,-76.2,-5,7
+210,USA CO Rifle Garfield Rgnl (TMY3).csv,TMY3,725717,Rifle Garfield Rgnl,CO,USA,39.533,-107.717,-7,1691
+211,USA ME Sanford Muni (awos) (TMY3).csv,TMY3,726064,Sanford Muni (awos),ME,USA,43.4,-70.717,-5,74
+212,USA WI Lone Rock Faa Ap (TMY3).csv,TMY3,726416,Lone Rock Faa Ap,WI,USA,43.2,-90.183,-6,219
+213,USA MN International Falls Intl Ap (TMY3).csv,TMY3,727470,International Falls Intl Ap,MN,USA,48.567,-93.4,-6,359
+214,USA MI Oakland Co Intl (TMY3).csv,TMY3,726375,Oakland Co Intl,MI,USA,42.667,-83.417,-5,306
+215,USA NY Niagara Falls Af (TMY3).csv,TMY3,725287,Niagara Falls Af,NY,USA,43.1,-78.95,-5,180
+216,USA WI Minocqua Woodruff (TMY3).csv,TMY3,726404,Minocqua Woodruff,WI,USA,45.933,-89.733,-6,496
+217,USA MN New Ulm Muni (awos) (TMY3).csv,TMY3,726567,New Ulm Muni (awos),MN,USA,44.317,-94.5,-6,308
+218,USA FL Southwest Florida I (TMY3).csv,TMY3,722108,Southwest Florida I,FL,USA,26.533,-81.75,-5,9
+219,USA FL Jacksonville Craig (TMY3).csv,TMY3,722068,Jacksonville Craig,FL,USA,30.333,-81.517,-5,12
+220,USA WV Bluefield Mercer Co [nrel] (TMY3).csv,TMY3,724125,Bluefield Mercer Co [nrel],WV,USA,37.27,-81.24,-5,803
+221,USA CA Hayward Air Term (TMY3).csv,TMY3,724935,Hayward Air Term,CA,USA,37.667,-122.117,-8,14
+222,USA NC Hickory Regional Ap (TMY3).csv,TMY3,723145,Hickory Regional Ap,NC,USA,35.733,-81.383,-5,348
+223,USA CT Groton New London Ap (TMY3).csv,TMY3,725046,Groton New London Ap,CT,USA,41.333,-72.05,-5,3
+224,USA IA Red Oak (TMY3).csv,TMY3,725494,Red Oak,IA,USA,41.017,-95.267,-6,318
+225,USA CA Red Bluff Municipal Arpt (TMY3).csv,TMY3,725910,Red Bluff Municipal Arpt,CA,USA,40.15,-122.25,-8,106
+226,USA TX Abilene Dyess Afb (TMY3).csv,TMY3,690190,Abilene Dyess Afb,TX,USA,32.433,-99.85,-6,545
+227,USA TX Palacios Municipal Ap (TMY3).csv,TMY3,722555,Palacios Municipal Ap,TX,USA,28.717,-96.25,-6,5
+228,USA MI Benton Harbor Ross (TMY3).csv,TMY3,726355,Benton Harbor Ross,MI,USA,42.133,-86.433,-5,196
+229,USA GA Brunswick Golden Is (TMY3).csv,TMY3,722136,Brunswick Golden Is,GA,USA,31.25,-81.467,-5,8
+230,USA ID Pocatello Regional Ap (TMY3).csv,TMY3,725780,Pocatello Regional Ap,ID,USA,42.917,-112.567,-7,1353
+231,USA CA Visalia Muni (awos) (TMY3).csv,TMY3,723896,Visalia Muni (awos),CA,USA,36.317,-119.4,-8,89
+232,USA SC North Myrtle Beach Grand Stra (TMY3).csv,TMY3,747915,North Myrtle Beach Grand Stra,SC,USA,33.817,-78.717,-5,10
+233,USA WA Tacoma Narrows (TMY3).csv,TMY3,727938,Tacoma Narrows,WA,USA,47.267,-122.583,-8,91
+234,USA CA Redding Municipal Arpt (TMY3).csv,TMY3,725920,Redding Municipal Arpt,CA,USA,40.517,-122.317,-8,153
+235,USA IA Webster City (TMY3).csv,TMY3,725478,Webster City,IA,USA,42.433,-93.867,-6,342
+236,USA TX San Antonio Kelly Field Afb (TMY3).csv,TMY3,722535,San Antonio Kelly Field Afb,TX,USA,29.383,-98.583,-6,208
+237,USA WY Casper Natrona Co Intl Ap (TMY3).csv,TMY3,725690,Casper Natrona Co Intl Ap,WY,USA,42.9,-106.467,-7,1627
+238,USA WA Quillayute State Airport (TMY3).csv,TMY3,727970,Quillayute State Airport,WA,USA,47.933,-124.567,-8,55
+239,USA NM Clayton Municipal Airpark (TMY3).csv,TMY3,723600,Clayton Municipal Airpark,NM,USA,36.45,-103.15,-7,1512
+240,USA OK Stillwater Rgnl (TMY3).csv,TMY3,723545,Stillwater Rgnl,OK,USA,36.15,-97.083,-6,308
+241,USA AR Memorial Fld (TMY3).csv,TMY3,723415,Memorial Fld,AR,USA,34.467,-93.1,-6,169
+242,USA MO Farmington (TMY3).csv,TMY3,724454,Farmington,MO,USA,37.767,-90.4,-6,274
+243,USA FL West Palm Beach Intl Arpt (TMY3).csv,TMY3,722030,West Palm Beach Intl Arpt,FL,USA,26.683,-80.1,-5,6
+244,USA IA Estherville Muni (TMY3).csv,TMY3,726499,Estherville Muni,IA,USA,43.4,-94.75,-6,401
+245,USA OK Vance Afb (TMY3).csv,TMY3,723535,Vance Afb,OK,USA,36.333,-97.917,-6,408
+246,USA CO Aurora Buckley Field Angb (TMY3).csv,TMY3,724695,Aurora Buckley Field Angb,CO,USA,39.717,-104.75,-7,1726
+247,USA MI Detroit Metropolitan Arpt (TMY3).csv,TMY3,725370,Detroit Metropolitan Arpt,MI,USA,42.217,-83.35,-5,194
+248,USA FL Miami Opa Locka (TMY3).csv,TMY3,722024,Miami Opa Locka,FL,USA,25.9,-80.283,-5,3
+249,USA TX Childress Municipal Ap (TMY3).csv,TMY3,723604,Childress Municipal Ap,TX,USA,34.433,-100.283,-6,595
+250,USA AZ Winslow Municipal Ap (TMY3).csv,TMY3,723740,Winslow Municipal Ap,AZ,USA,35.033,-110.717,-7,1490
+251,USA NY Binghamton Edwin A Link Field (TMY3).csv,TMY3,725150,Binghamton Edwin A Link Field,NY,USA,42.2,-75.983,-5,488
+252,USA MS Gulfport Biloxi Int (TMY3).csv,TMY3,747685,Gulfport Biloxi Int,MS,USA,30.4,-89.067,-6,9
+253,USA SC Beaufort Mcas (TMY3).csv,TMY3,722085,Beaufort Mcas,SC,USA,32.483,-80.717,-5,10
+254,USA NV Winnemucca Municipal Arpt (TMY3).csv,TMY3,725830,Winnemucca Municipal Arpt,NV,USA,40.9,-117.8,-8,1310
+255,USA MN Wheaton Ndb (awos) (TMY3).csv,TMY3,727533,Wheaton Ndb (awos),MN,USA,45.7,-96.5,-6,313
+256,USA IL Moline Quad City Intl Ap (TMY3).csv,TMY3,725440,Moline Quad City Intl Ap,IL,USA,41.467,-90.517,-6,180
+257,USA GA Alma Bacon County Ap (TMY3).csv,TMY3,722135,Alma Bacon County Ap,GA,USA,31.533,-82.5,-5,63
+258,USA NM Holloman Afb (TMY3).csv,TMY3,747320,Holloman Afb,NM,USA,32.85,-106.1,-7,1248
+259,USA WA Snohomish Co (TMY3).csv,TMY3,727937,Snohomish Co,WA,USA,47.9,-122.283,-8,189
+260,USA IL Marion Regional (TMY3).csv,TMY3,724339,Marion Regional,IL,USA,37.75,-89.017,-6,144
+261,USA CA Fullerton Municipal (TMY3).csv,TMY3,722976,Fullerton Municipal,CA,USA,33.867,-117.983,-8,29
+262,USA AL Dothan Municipal Ap (TMY3).csv,TMY3,722268,Dothan Municipal Ap,AL,USA,31.233,-85.433,-6,98
+263,USA VA Staunton Shenandoah (TMY3).csv,TMY3,724105,Staunton Shenandoah,VA,USA,38.267,-78.9,-5,366
+264,USA TX Port Arthur Jefferson County (TMY3).csv,TMY3,722410,Port Arthur Jefferson County,TX,USA,29.95,-94.017,-6,5
+265,USA TX Killeen Muni (awos) (TMY3).csv,TMY3,722575,Killeen Muni (awos),TX,USA,31.083,-97.683,-6,258
+266,USA ID Salmon Lemhi (awos) (TMY3).csv,TMY3,726865,Salmon Lemhi (awos),ID,USA,45.117,-113.883,-7,1233
+267,USA LA Monroe Regional Ap (TMY3).csv,TMY3,722486,Monroe Regional Ap,LA,USA,32.517,-92.033,-6,40
+268,USA IA Algona (TMY3).csv,TMY3,725457,Algona,IA,USA,43.083,-94.267,-6,372
+269,USA CA Van Nuys Airport (TMY3).csv,TMY3,722886,Van Nuys Airport,CA,USA,34.217,-118.483,-8,235
+270,USA FL Sarasota Bradenton (TMY3).csv,TMY3,722115,Sarasota Bradenton,FL,USA,27.383,-82.55,-5,10
+271,USA CA Salinas Municipal Ap (TMY3).csv,TMY3,724917,Salinas Municipal Ap,CA,USA,36.667,-121.6,-8,21
+272,USA NC Asheville Regional Arpt (TMY3).csv,TMY3,723150,Asheville Regional Arpt,NC,USA,35.433,-82.533,-5,652
+273,USA NE O`neill Baker Field (TMY3).csv,TMY3,725566,O`neill Baker Field,NE,USA,42.467,-98.683,-6,619
+274,USA WA Spokane International Ap [cheney - Uo] (TMY3).csv,TMY3,727850,Spokane International Ap [cheney - Uo],WA,USA,47.49,-117.589,-8,777
+275,USA AR Fayetteville Drake Field (TMY3).csv,TMY3,723445,Fayetteville Drake Field,AR,USA,36.0,-94.167,-6,381
+276,USA MI Battle Creek Kellogg Ap (TMY3).csv,TMY3,725396,Battle Creek Kellogg Ap,MI,USA,42.3,-85.25,-5,283
+277,USA VA Roanoke Regional Ap (TMY3).csv,TMY3,724110,Roanoke Regional Ap,VA,USA,37.317,-79.967,-5,350
+278,USA CA Santa Barbara Municipal Ap (TMY3).csv,TMY3,723925,Santa Barbara Municipal Ap,CA,USA,34.433,-119.85,-8,3
+279,USA ID Joslin Fld Magic Va [twin Falls - Uo] (TMY3).csv,TMY3,725866,Joslin Fld Magic Va [twin Falls - Uo],ID,USA,42.55,-114.35,-7,1200
+280,USA ME Bangor International Ap (TMY3).csv,TMY3,726088,Bangor International Ap,ME,USA,44.8,-68.817,-5,56
+281,USA RI Providence T F Green State Ar (TMY3).csv,TMY3,725070,Providence T F Green State Ar,RI,USA,41.717,-71.433,-5,16
+282,USA PA Reading Spaatz Field (TMY3).csv,TMY3,725103,Reading Spaatz Field,PA,USA,40.367,-75.967,-5,104
+283,USA TX Dallas-fort Worth Intl Ap (TMY3).csv,TMY3,722590,Dallas-fort Worth Intl Ap,TX,USA,32.9,-97.017,-6,171
+284,USA MI Escanaba (awos) (TMY3).csv,TMY3,726480,Escanaba (awos),MI,USA,45.75,-87.033,-5,187
+285,USA VA Abingdon (TMY3).csv,TMY3,724058,Abingdon,VA,USA,36.683,-82.033,-5,631
+286,USA WY Cody Muni (awos) (TMY3).csv,TMY3,726700,Cody Muni (awos),WY,USA,44.517,-109.017,-7,1553
+287,USA OH Zanesville Municipal Ap (TMY3).csv,TMY3,724286,Zanesville Municipal Ap,OH,USA,39.95,-81.9,-5,268
+288,USA OR Pendleton E Or Regional Ap (TMY3).csv,TMY3,726880,Pendleton E Or Regional Ap,OR,USA,45.7,-118.833,-8,452
+289,USA PR San Juan L M Marin Intl Ap (TMY3).csv,TMY3,785263,San Juan L M Marin Intl Ap,PR,USA,18.433,-66.0,-4,3
+290,USA IL Quincy Muni Baldwin Fld (TMY3).csv,TMY3,724396,Quincy Muni Baldwin Fld,IL,USA,39.933,-91.2,-6,233
+291,USA TX Georgetown (awos) (TMY3).csv,TMY3,722547,Georgetown (awos),TX,USA,30.683,-97.683,-6,240
+292,USA TX Victoria Regional Ap (TMY3).csv,TMY3,722550,Victoria Regional Ap,TX,USA,28.867,-96.933,-6,35
+293,USA GA Columbus Metropolitan Arpt (TMY3).csv,TMY3,722255,Columbus Metropolitan Arpt,GA,USA,32.517,-84.95,-6,120
+294,USA HI Barbers Point Nas (TMY3).csv,TMY3,911780,Barbers Point Nas,HI,USA,21.317,-158.067,-10,15
+295,USA CA Bishop Airport (TMY3).csv,TMY3,724800,Bishop Airport,CA,USA,37.367,-118.35,-8,1250
+296,USA PR Eugenio Maria De Ho (TMY3).csv,TMY3,785145,Eugenio Maria De Ho,PR,USA,18.25,-67.15,-4,9
+297,USA MA Chicopee Falls Westo (TMY3).csv,TMY3,744910,Chicopee Falls Westo,MA,USA,42.2,-72.533,-5,75
+298,USA NV Mercury Desert Rock Ap [surfrad] (TMY3).csv,TMY3,723870,Mercury Desert Rock Ap [surfrad],NV,USA,36.63,-116.02,-8,935
+299,USA SD Mitchell (awos) (TMY3).csv,TMY3,726545,Mitchell (awos),SD,USA,43.767,-98.033,-6,397
+300,USA CA San Francisco Intl Ap (TMY3).csv,TMY3,724940,San Francisco Intl Ap,CA,USA,37.617,-122.4,-8,2
+301,USA DE Dover Afb (TMY3).csv,TMY3,724088,Dover Afb,DE,USA,39.133,-75.467,-5,7
+302,USA KS Olathe Johnson Co. (TMY3).csv,TMY3,724468,Olathe Johnson Co.,KS,USA,38.85,-94.733,-6,334
+303,USA TX Fort Worth Nas (TMY3).csv,TMY3,722595,Fort Worth Nas,TX,USA,32.767,-97.45,-6,185
+304,USA VA Washington Dc Dulles Int'l Ar [sterling - Isis] (TMY3).csv,TMY3,724030,Washington Dc Dulles Int'l Ar [sterling - Isis],VA,USA,38.98,-77.47,-5,82
+305,USA ME Rockland Knox(awos) (TMY3).csv,TMY3,726079,Rockland Knox(awos),ME,USA,44.067,-69.1,-5,17
+306,USA IN South Bend Michiana Rgnl Ap (TMY3).csv,TMY3,725350,South Bend Michiana Rgnl Ap,IN,USA,41.7,-86.333,-5,236
+307,USA NM Carlsbad Cavern City Air Term (TMY3).csv,TMY3,722687,Carlsbad Cavern City Air Term,NM,USA,32.333,-104.267,-7,985
+308,USA MA Norwood Memorial (TMY3).csv,TMY3,725098,Norwood Memorial,MA,USA,42.183,-71.183,-5,15
+309,USA KY Louisville Standiford Field (TMY3).csv,TMY3,724230,Louisville Standiford Field,KY,USA,38.183,-85.733,-5,147
+310,USA MI St.clair County Int (TMY3).csv,TMY3,725384,St.clair County Int,MI,USA,42.917,-82.533,-5,198
+311,USA OH Columbus Port Columbus Intl A (TMY3).csv,TMY3,724280,Columbus Port Columbus Intl A,OH,USA,39.983,-82.883,-5,247
+312,USA UT Cedar City Municipal Ap (TMY3).csv,TMY3,724755,Cedar City Municipal Ap,UT,USA,37.7,-113.1,-7,1703
+313,USA SD Mobridge (TMY3).csv,TMY3,726685,Mobridge,SD,USA,45.533,-100.433,-7,508
+314,USA CA Needles Airport (TMY3).csv,TMY3,723805,Needles Airport,CA,USA,34.767,-114.617,-8,279
+315,USA FL Orlando Executive Ap (TMY3).csv,TMY3,722053,Orlando Executive Ap,FL,USA,28.55,-81.333,-5,33
+316,USA SC Charleston Intl Arpt (TMY3).csv,TMY3,722080,Charleston Intl Arpt,SC,USA,32.9,-80.033,-5,12
+317,USA TX Nacogdoches (awos) (TMY3).csv,TMY3,722499,Nacogdoches (awos),TX,USA,31.583,-94.717,-6,108
+318,USA ID Hailey Friedman Mem (TMY3).csv,TMY3,725865,Hailey Friedman Mem,ID,USA,43.5,-114.3,-7,1620
+319,USA CO Akron Washington Co Ap (TMY3).csv,TMY3,724698,Akron Washington Co Ap,CO,USA,40.167,-103.233,-7,1421
+320,USA MN Minneapolis-st Paul Int'l Arp (TMY3).csv,TMY3,726580,Minneapolis-st Paul Int'l Arp,MN,USA,44.883,-93.233,-6,254
+321,USA CA March Afb (TMY3).csv,TMY3,722860,March Afb,CA,USA,33.9,-117.25,-8,462
+322,USA VA Danville Faa Ap (TMY3).csv,TMY3,724106,Danville Faa Ap,VA,USA,36.567,-79.333,-5,176
+323,USA FL Valparaiso Elgin Afb (TMY3).csv,TMY3,722210,Valparaiso Elgin Afb,FL,USA,30.483,-86.517,-6,20
+324,USA WI Watertown (TMY3).csv,TMY3,726464,Watertown,WI,USA,43.167,-88.717,-6,254
+325,USA UT Saint George (awos) (TMY3).csv,TMY3,724754,Saint George (awos),UT,USA,37.083,-113.6,-7,896
+326,USA IL Mount Vernon (awos) (TMY3).csv,TMY3,724335,Mount Vernon (awos),IL,USA,38.317,-88.867,-6,146
+327,USA MN Owatonna (awos) (TMY3).csv,TMY3,726568,Owatonna (awos),MN,USA,44.117,-93.25,-6,350
+328,USA MS Greenwood Leflore Arpt (TMY3).csv,TMY3,722359,Greenwood Leflore Arpt,MS,USA,33.5,-90.083,-6,47
+329,USA CO Leadville Lake Co. (TMY3).csv,TMY3,724673,Leadville Lake Co.,CO,USA,39.217,-106.317,-7,3026
+330,USA NJ Mcguire Afb (TMY3).csv,TMY3,724096,Mcguire Afb,NJ,USA,40.017,-74.6,-5,45
+331,USA WA Seattle Boeing Field [isis] (TMY3).csv,TMY3,727935,Seattle Boeing Field [isis],WA,USA,47.68,-122.25,-8,20
+332,USA MN Benson Muni (TMY3).csv,TMY3,727507,Benson Muni,MN,USA,45.317,-95.65,-6,317
+333,USA MT Butte Bert Mooney Arpt (TMY3).csv,TMY3,726785,Butte Bert Mooney Arpt,MT,USA,45.95,-112.5,-7,1689
+334,USA VA Melfa Accomack Arpt (TMY3).csv,TMY3,724026,Melfa Accomack Arpt,VA,USA,37.65,-75.767,-5,15
+335,USA TX Austin Mueller Municipal Ap [ut] (TMY3).csv,TMY3,722540,Austin Mueller Municipal Ap [ut],TX,USA,30.29,-97.74,-6,213
+336,USA MO Jefferson City Mem (TMY3).csv,TMY3,724458,Jefferson City Mem,MO,USA,38.583,-92.15,-6,167
+337,USA FL Panama City Bay Co (TMY3).csv,TMY3,722245,Panama City Bay Co,FL,USA,30.2,-85.683,-6,6
+338,USA VA Leesburg Godfrey (TMY3).csv,TMY3,724055,Leesburg Godfrey,VA,USA,39.083,-77.567,-5,119
+339,USA SC Anderson County Ap (TMY3).csv,TMY3,723125,Anderson County Ap,SC,USA,34.5,-82.717,-5,232
+340,USA OR Salem Mcnary Field (TMY3).csv,TMY3,726940,Salem Mcnary Field,OR,USA,44.9,-123.0,-8,60
+341,USA PR Roosevelt Roads (TMY3).csv,TMY3,785350,Roosevelt Roads,PR,USA,18.25,-65.633,-4,12
+342,USA NE Scottsbluff W B Heilig Field (TMY3).csv,TMY3,725660,Scottsbluff W B Heilig Field,NE,USA,41.867,-103.6,-7,1202
+343,USA KY Bowling Green Warren Co Ap (TMY3).csv,TMY3,746716,Bowling Green Warren Co Ap,KY,USA,36.983,-86.433,-6,161
+344,USA CA Palmdale Airport (TMY3).csv,TMY3,723820,Palmdale Airport,CA,USA,34.633,-118.083,-8,769
+345,USA NM Las Cruces Intl (TMY3).csv,TMY3,722695,Las Cruces Intl,NM,USA,32.283,-106.917,-7,1393
+346,USA CA Santa Rosa (awos) (TMY3).csv,TMY3,724957,Santa Rosa (awos),CA,USA,38.517,-122.817,-8,38
+347,USA MN Brainerd Wieland (TMY3).csv,TMY3,726555,Brainerd Wieland,MN,USA,46.4,-94.133,-6,374
+348,USA CA Lemoore Reeves Nas (TMY3).csv,TMY3,747020,Lemoore Reeves Nas,CA,USA,36.333,-119.95,-8,73
+349,USA CA Camp Pendleton Mcas (TMY3).csv,TMY3,722926,Camp Pendleton Mcas,CA,USA,33.3,-117.35,-8,23
+350,USA IA Clarinda (TMY3).csv,TMY3,725479,Clarinda,IA,USA,40.717,-95.033,-6,303
+351,USA AR Pine Bluff Faa Ap (TMY3).csv,TMY3,723417,Pine Bluff Faa Ap,AR,USA,34.167,-91.933,-6,63
+352,USA KY Jackson Julian Carroll Ap (TMY3).csv,TMY3,724236,Jackson Julian Carroll Ap,KY,USA,37.583,-83.317,-5,416
+353,USA CO Pueblo Memorial Ap (TMY3).csv,TMY3,724640,Pueblo Memorial Ap,CO,USA,38.283,-104.5,-7,1428
+354,USA NM Santa Fe County Municipal Ap (TMY3).csv,TMY3,723656,Santa Fe County Municipal Ap,NM,USA,35.617,-106.083,-7,1934
+355,USA MN Baudette International Ap (TMY3).csv,TMY3,727476,Baudette International Ap,MN,USA,48.717,-94.6,-6,330
+356,USA FL Vero Beach Municipal Arpt (TMY3).csv,TMY3,722045,Vero Beach Municipal Arpt,FL,USA,27.65,-80.417,-5,7
+357,USA AZ Scottsdale Muni (TMY3).csv,TMY3,722789,Scottsdale Muni,AZ,USA,33.617,-111.917,-7,460
+358,USA VA Shannon Arpt (TMY3).csv,TMY3,724033,Shannon Arpt,VA,USA,38.267,-77.45,-5,26
+359,USA AL Montgomery Dannelly Field (TMY3).csv,TMY3,722260,Montgomery Dannelly Field,AL,USA,32.3,-86.4,-6,62
+360,USA ME Caribou Municipal Arpt (TMY3).csv,TMY3,727120,Caribou Municipal Arpt,ME,USA,46.867,-68.033,-5,190
+361,USA MN Cloquet (awos) (TMY3).csv,TMY3,726558,Cloquet (awos),MN,USA,46.7,-92.5,-6,390
+362,USA IL Aurora Municipal (TMY3).csv,TMY3,744655,Aurora Municipal,IL,USA,41.767,-88.467,-6,215
+363,USA TX Laredo Intl Ap [ut] (TMY3).csv,TMY3,722520,Laredo Intl Ap [ut],TX,USA,27.57,-99.49,-6,142
+364,USA CT Hartford Brainard Fd (TMY3).csv,TMY3,725087,Hartford Brainard Fd,CT,USA,41.733,-72.65,-5,6
+365,USA NE Norfolk Karl Stefan Mem Arpt (TMY3).csv,TMY3,725560,Norfolk Karl Stefan Mem Arpt,NE,USA,41.983,-97.433,-6,472
+366,USA OR Klamath Falls Intl Ap [uo] (TMY3).csv,TMY3,725895,Klamath Falls Intl Ap [uo],OR,USA,42.22,-121.74,-8,1220
+367,USA NY Adirondack Rgnl (TMY3).csv,TMY3,726228,Adirondack Rgnl,NY,USA,44.383,-74.2,-5,520
+368,USA KS Olathe Johnson Co Industrial (TMY3).csv,TMY3,724475,Olathe Johnson Co Industrial,KS,USA,38.833,-94.883,-6,331
+369,USA GA Atlanta Hartsfield Intl Ap (TMY3).csv,TMY3,722190,Atlanta Hartsfield Intl Ap,GA,USA,33.633,-84.433,-5,308
+370,USA WV Morgantown Hart Field (TMY3).csv,TMY3,724176,Morgantown Hart Field,WV,USA,39.65,-79.917,-5,378
+371,USA FL Daytona Beach Intl Ap (TMY3).csv,TMY3,722056,Daytona Beach Intl Ap,FL,USA,29.183,-81.067,-5,9
+372,USA TX Brownsville S Padre Isl Intl (TMY3).csv,TMY3,722500,Brownsville S Padre Isl Intl,TX,USA,25.9,-97.433,-6,6
+373,USA NH Lebanon Municipal (TMY3).csv,TMY3,726116,Lebanon Municipal,NH,USA,43.633,-72.3,-5,182
+374,USA NE Beatrice Municipal (TMY3).csv,TMY3,725515,Beatrice Municipal,NE,USA,40.3,-96.75,-6,403
+375,USA CA Edwards Afb (TMY3).csv,TMY3,723810,Edwards Afb,CA,USA,34.9,-117.867,-8,706
+376,USA VA Martinsville (TMY3).csv,TMY3,745985,Martinsville,VA,USA,36.633,-80.017,-5,287
+377,USA CA Jack Northrop Fld H (TMY3).csv,TMY3,722956,Jack Northrop Fld H,CA,USA,33.917,-118.333,-8,21
+378,USA CA Sacramento Executive Arpt (TMY3).csv,TMY3,724830,Sacramento Executive Arpt,CA,USA,38.5,-121.5,-8,5
+379,USA IL Decatur (TMY3).csv,TMY3,725316,Decatur,IL,USA,39.833,-88.867,-6,213
+380,USA PR Aquadilla Borinquen (TMY3).csv,TMY3,785140,Aquadilla Borinquen,PR,USA,18.5,-67.133,-4,72
+381,USA CA Napa Co. Airport (TMY3).csv,TMY3,724955,Napa Co. Airport,CA,USA,38.217,-122.283,-8,10
+382,USA AL Maxwell Afb (TMY3).csv,TMY3,722265,Maxwell Afb,AL,USA,32.383,-86.35,-6,53
+383,USA OR Aurora State (TMY3).csv,TMY3,726959,Aurora State,OR,USA,45.25,-122.767,-8,60
+384,USA FL Melbourne Regional Ap (TMY3).csv,TMY3,722040,Melbourne Regional Ap,FL,USA,28.117,-80.65,-5,11
+385,USA IA Des Moines Intl Ap (TMY3).csv,TMY3,725460,Des Moines Intl Ap,IA,USA,41.533,-93.667,-6,292
+386,USA GA Fulton Co Arpt Brow (TMY3).csv,TMY3,722195,Fulton Co Arpt Brow,GA,USA,33.767,-84.517,-5,263
+387,USA NE Ainsworth Municipal (TMY3).csv,TMY3,725556,Ainsworth Municipal,NE,USA,42.583,-100.0,-6,789
+388,USA KS Goodland Renner Field (TMY3).csv,TMY3,724650,Goodland Renner Field,KS,USA,39.367,-101.7,-7,1111
+389,USA TX College Station Easterwood Fl (TMY3).csv,TMY3,722445,College Station Easterwood Fl,TX,USA,30.583,-96.367,-6,96
+390,USA TX Cox Fld (TMY3).csv,TMY3,722587,Cox Fld,TX,USA,33.633,-95.45,-6,171
+391,USA GA Augusta Bush Field (TMY3).csv,TMY3,722180,Augusta Bush Field,GA,USA,33.367,-81.967,-5,40
+392,USA WV Beckley Raleigh Co Mem Ap (TMY3).csv,TMY3,724120,Beckley Raleigh Co Mem Ap,WV,USA,37.8,-81.117,-5,763
+393,USA FL Valparaiso Hurlburt (TMY3).csv,TMY3,747770,Valparaiso Hurlburt,FL,USA,30.417,-86.683,-6,12
+394,USA TX Camp Mabry (TMY3).csv,TMY3,722544,Camp Mabry,TX,USA,30.317,-97.767,-6,198
+395,USA AR Rogers (awos) (TMY3).csv,TMY3,723449,Rogers (awos),AR,USA,36.367,-94.1,-6,415
+396,USA TX Fort Worth Alliance (TMY3).csv,TMY3,722594,Fort Worth Alliance,TX,USA,32.983,-97.317,-6,226
+397,USA MI Howell (TMY3).csv,TMY3,725378,Howell,MI,USA,42.633,-83.983,-5,293
+398,USA VA Pulaski (TMY3).csv,TMY3,724116,Pulaski,VA,USA,37.133,-80.683,-5,642
+399,USA ND Jamestown Municipal Arpt (TMY3).csv,TMY3,727535,Jamestown Municipal Arpt,ND,USA,46.917,-98.683,-6,455
+400,USA AL Gadsen Muni (awos) (TMY3).csv,TMY3,722285,Gadsen Muni (awos),AL,USA,33.967,-86.083,-6,173
+401,USA MN Mora Muni (awos) (TMY3).csv,TMY3,727475,Mora Muni (awos),MN,USA,45.883,-93.267,-6,309
+402,USA MN Orr (TMY3).csv,TMY3,726544,Orr,MN,USA,48.017,-92.867,-6,397
+403,USA WA Whidbey Island Nas (TMY3).csv,TMY3,690230,Whidbey Island Nas,WA,USA,48.35,-122.667,-8,10
+404,USA OR Redmond Roberts Field (TMY3).csv,TMY3,726835,Redmond Roberts Field,OR,USA,44.25,-121.167,-8,933
+405,USA NC Raleigh Durham International (TMY3).csv,TMY3,723060,Raleigh Durham International,NC,USA,35.867,-78.783,-5,127
+406,USA GA Hunter Aaf (TMY3).csv,TMY3,747804,Hunter Aaf,GA,USA,32.0,-81.15,-5,13
+407,USA OR Portland Troutdale (TMY3).csv,TMY3,726985,Portland Troutdale,OR,USA,45.55,-122.4,-8,11
+408,USA PA Pittsburgh International Ap (TMY3).csv,TMY3,725200,Pittsburgh International Ap,PA,USA,40.5,-80.233,-5,350
+409,USA WI Mosinee Central Wi (TMY3).csv,TMY3,726465,Mosinee Central Wi,WI,USA,44.783,-89.667,-6,389
+410,USA TX Lufkin Angelina Co (TMY3).csv,TMY3,722446,Lufkin Angelina Co,TX,USA,31.233,-94.75,-6,86
+411,USA VA Davison Aaf (TMY3).csv,TMY3,724037,Davison Aaf,VA,USA,38.717,-77.183,-5,27
+412,USA IN Terre Haute Hulman Regional A (TMY3).csv,TMY3,724373,Terre Haute Hulman Regional A,IN,USA,39.45,-87.3,-5,175
+413,USA MN Willmar (TMY3).csv,TMY3,726576,Willmar,MN,USA,45.117,-95.083,-6,345
+414,USA MO St Joseph Rosecrans Memorial (TMY3).csv,TMY3,724490,St Joseph Rosecrans Memorial,MO,USA,39.767,-94.9,-6,247
+415,USA MO Joplin Municipal Ap (TMY3).csv,TMY3,723495,Joplin Municipal Ap,MO,USA,37.15,-94.5,-6,297
+416,USA CT Hartford Bradley Intl Ap (TMY3).csv,TMY3,725080,Hartford Bradley Intl Ap,CT,USA,41.933,-72.683,-5,49
+417,USA KS Mcconnell Afb (TMY3).csv,TMY3,724505,Mcconnell Afb,KS,USA,37.617,-97.267,-6,414
+418,USA OR Burns Municipal Arpt [uo] (TMY3).csv,TMY3,726830,Burns Municipal Arpt [uo],OR,USA,43.52,-119.02,-8,1271
+419,USA VA Norfolk Nas (TMY3).csv,TMY3,723085,Norfolk Nas,VA,USA,36.95,-76.283,-5,10
+420,USA OR Portland International Ap (TMY3).csv,TMY3,726980,Portland International Ap,OR,USA,45.6,-122.617,-8,6
+421,USA MI Detroit City Airport (TMY3).csv,TMY3,725375,Detroit City Airport,MI,USA,42.4,-83.0,-5,190
+422,USA IA Decorah (TMY3).csv,TMY3,725476,Decorah,IA,USA,43.283,-91.733,-6,353
+423,USA IN Indianapolis Intl Ap (TMY3).csv,TMY3,724380,Indianapolis Intl Ap,IN,USA,39.717,-86.267,-5,241
+424,USA NE Omaha Wsfo (TMY3).csv,TMY3,725530,Omaha Wsfo,NE,USA,41.367,-96.017,-6,399
+425,USA AZ Yuma Mcas (TMY3).csv,TMY3,699604,Yuma Mcas,AZ,USA,32.65,-114.617,-7,65
+426,USA OR Sexton Summit (TMY3).csv,TMY3,725975,Sexton Summit,OR,USA,42.6,-123.367,-8,1168
+427,USA GA Brunswick Malcolm Mckinnon Ap (TMY3).csv,TMY3,722137,Brunswick Malcolm Mckinnon Ap,GA,USA,31.15,-81.383,-5,4
+428,USA TN Nashville International Ap (TMY3).csv,TMY3,723270,Nashville International Ap,TN,USA,36.117,-86.683,-6,177
+429,USA NC Greensboro Piedmont Triad Int (TMY3).csv,TMY3,723170,Greensboro Piedmont Triad Int,NC,USA,36.1,-79.95,-5,273
+430,USA AR Little Rock Afb (TMY3).csv,TMY3,723405,Little Rock Afb,AR,USA,34.917,-92.15,-6,103
+431,USA MI Manistee (awos) (TMY3).csv,TMY3,726385,Manistee (awos),MI,USA,44.267,-86.25,-5,189
+432,USA ID Burley Municipal Arpt (TMY3).csv,TMY3,725867,Burley Municipal Arpt,ID,USA,42.533,-113.767,-7,1267
+433,USA SC Greer Greenv'l-spartanbrg Ap (TMY3).csv,TMY3,723120,Greer Greenv'l-spartanbrg Ap,SC,USA,34.9,-82.217,-5,292
+434,USA IA Muscatine (TMY3).csv,TMY3,725487,Muscatine,IA,USA,41.367,-91.15,-6,167
+435,USA NY Westhampton Gabreski Ap (TMY3).csv,TMY3,744865,Westhampton Gabreski Ap,NY,USA,40.85,-72.633,-5,20
+436,USA MO Kansas City Int'l Arpt (TMY3).csv,TMY3,724460,Kansas City Int'l Arpt,MO,USA,39.3,-94.717,-6,298
+437,USA NE Hastings Municipal (TMY3).csv,TMY3,725525,Hastings Municipal,NE,USA,40.6,-98.433,-6,596
+438,USA MO St Louis Lambert Int'l Arpt (TMY3).csv,TMY3,724340,St Louis Lambert Int'l Arpt,MO,USA,38.75,-90.367,-6,173
+439,USA WI Wausau Municipal Arpt (TMY3).csv,TMY3,726463,Wausau Municipal Arpt,WI,USA,44.917,-89.633,-6,366
+440,USA MN Crookston Muni Fld (TMY3).csv,TMY3,727452,Crookston Muni Fld,MN,USA,47.85,-96.617,-6,273
+441,USA MD Andrews Afb (TMY3).csv,TMY3,745940,Andrews Afb,MD,USA,38.817,-76.867,-5,86
+442,USA MN Red Wing (TMY3).csv,TMY3,726564,Red Wing,MN,USA,44.583,-92.483,-6,239
+443,USA WV Parkersburg Wood County Ap (TMY3).csv,TMY3,724273,Parkersburg Wood County Ap,WV,USA,39.35,-81.433,-5,253
+444,USA KS Hays Muni (awos) (TMY3).csv,TMY3,724518,Hays Muni (awos),KS,USA,38.85,-99.267,-6,609
+445,USA MA Westfield Barnes Muni Ap (TMY3).csv,TMY3,744915,Westfield Barnes Muni Ap,MA,USA,42.15,-72.717,-5,83
+446,USA MN Glenwood (asos) (TMY3).csv,TMY3,726547,Glenwood (asos),MN,USA,45.65,-95.317,-6,425
+447,USA AZ Luke Afb (TMY3).csv,TMY3,722785,Luke Afb,AZ,USA,33.55,-112.367,-7,331
+448,USA HI Lihue Airport (TMY3).csv,TMY3,911650,Lihue Airport,HI,USA,21.983,-159.333,-10,31
+449,USA IL Chicago Midway Ap (TMY3).csv,TMY3,725340,Chicago Midway Ap,IL,USA,41.783,-87.75,-6,186
+450,USA MN Litchfield Muni (TMY3).csv,TMY3,726583,Litchfield Muni,MN,USA,45.1,-94.5,-6,347
+451,USA TX Harlingen Rio Grande Valley I (TMY3).csv,TMY3,722505,Harlingen Rio Grande Valley I,TX,USA,26.233,-97.65,-6,10
+452,USA VA Franklin Naas (TMY3).csv,TMY3,723083,Franklin Naas,VA,USA,36.7,-76.9,-5,12
+453,USA NY Islip Long Isl Macarthur Ap (TMY3).csv,TMY3,725035,Islip Long Isl Macarthur Ap,NY,USA,40.783,-73.1,-5,26
+454,USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv,TMY3,722780,Phoenix Sky Harbor Intl Ap,AZ,USA,33.45,-111.983,-7,337
+455,USA CA Sacramento Metropolitan Ap (TMY3).csv,TMY3,724839,Sacramento Metropolitan Ap,CA,USA,38.7,-121.583,-8,7
+456,USA CO Greeley Weld (awos) (TMY3).csv,TMY3,724768,Greeley Weld (awos),CO,USA,40.433,-104.633,-7,1420
+457,USA NE Falls City Brenner (TMY3).csv,TMY3,725533,Falls City Brenner,NE,USA,40.083,-95.6,-6,300
+458,USA HI Kapalua (TMY3).csv,TMY3,911904,Kapalua,HI,USA,20.95,-156.633,-10,80
+459,USA AZ Grand Canyon Natl P (TMY3).csv,TMY3,723783,Grand Canyon Natl P,AZ,USA,35.95,-112.15,-7,2065
+460,USA NC Cherry Point Mcas (TMY3).csv,TMY3,723090,Cherry Point Mcas,NC,USA,34.9,-76.883,-5,11
+461,USA CA Merced Macready Fld (TMY3).csv,TMY3,724815,Merced Macready Fld,CA,USA,37.283,-120.517,-8,47
+462,USA KS Chanute Martin Johnson Ap (TMY3).csv,TMY3,724507,Chanute Martin Johnson Ap,KS,USA,37.667,-95.483,-6,298
+463,USA IA Le Mars (TMY3).csv,TMY3,725484,Le Mars,IA,USA,42.783,-96.2,-6,365
+464,USA ME Wiscasset (TMY3).csv,TMY3,727135,Wiscasset,ME,USA,43.967,-69.717,-5,21
+465,USA MN Park Rapids Municipal Ap (TMY3).csv,TMY3,727453,Park Rapids Municipal Ap,MN,USA,46.9,-95.067,-6,437
+466,USA CA Daggett Barstow-daggett Ap (TMY3).csv,TMY3,723815,Daggett Barstow-daggett Ap,CA,USA,34.85,-116.8,-8,586
+467,USA OR Corvallis Muni (TMY3).csv,TMY3,726945,Corvallis Muni,OR,USA,44.483,-123.283,-8,77
+468,USA IL W. Chicago Du Page (TMY3).csv,TMY3,725305,W. Chicago Du Page,IL,USA,41.917,-88.25,-6,231
+469,USA CA Santa Ana John Wayne Ap (TMY3).csv,TMY3,722977,Santa Ana John Wayne Ap,CA,USA,33.683,-117.867,-8,16
+470,USA NC Kinston Stallings Afb (TMY3).csv,TMY3,723067,Kinston Stallings Afb,NC,USA,35.317,-77.633,-5,29
+471,USA HI Molokai (amos) (TMY3).csv,TMY3,911860,Molokai (amos),HI,USA,21.15,-157.1,-10,137
+472,USA MI Alpena County Regional Ap (TMY3).csv,TMY3,726390,Alpena County Regional Ap,MI,USA,45.067,-83.583,-5,210
+473,USA SD Sioux Falls Foss Field (TMY3).csv,TMY3,726510,Sioux Falls Foss Field,SD,USA,43.583,-96.75,-6,433
+474,USA ID Boise Air Terminal [uo] (TMY3).csv,TMY3,726810,Boise Air Terminal [uo],ID,USA,43.62,-116.21,-7,701
+475,USA NV Reno Tahoe International Ap (TMY3).csv,TMY3,724880,Reno Tahoe International Ap,NV,USA,39.483,-119.767,-8,1342
+476,USA NM Gallup Sen Clarke Fld (TMY3).csv,TMY3,723627,Gallup Sen Clarke Fld,NM,USA,35.517,-108.783,-7,1971
+477,USA NY Rochester Greater Rochester I (TMY3).csv,TMY3,725290,Rochester Greater Rochester I,NY,USA,43.117,-77.683,-5,183
+478,USA TX Amarillo International Ap [canyon - Ut] (TMY3).csv,TMY3,723630,Amarillo International Ap [canyon - Ut],TX,USA,34.99,-101.9,-6,1068
+479,USA OK Fort Sill Post Field Af (TMY3).csv,TMY3,723550,Fort Sill Post Field Af,OK,USA,34.65,-98.4,-6,369
+480,USA TN Crossville Memorial Ap (TMY3).csv,TMY3,723265,Crossville Memorial Ap,TN,USA,35.95,-85.083,-6,569
+481,USA IL Central Illinois Rg (TMY3).csv,TMY3,724397,Central Illinois Rg,IL,USA,40.467,-88.917,-6,272
+482,USA WY Worland Municipal (TMY3).csv,TMY3,726665,Worland Municipal,WY,USA,43.967,-107.95,-7,1294
+483,USA PA Bradford Regional Ap (TMY3).csv,TMY3,725266,Bradford Regional Ap,PA,USA,41.8,-78.633,-5,645
+484,USA OK Oklahoma City Will Rogers Wor (TMY3).csv,TMY3,723530,Oklahoma City Will Rogers Wor,OK,USA,35.383,-97.6,-6,398
+485,USA IL Southern Illinois (TMY3).csv,TMY3,724336,Southern Illinois,IL,USA,37.767,-89.25,-6,128
+486,USA MS Natchez Hardy(awos) (TMY3).csv,TMY3,722357,Natchez Hardy(awos),MS,USA,31.617,-91.3,-6,83
+487,USA NJ Millville Municipal Ap (TMY3).csv,TMY3,724075,Millville Municipal Ap,NJ,USA,39.367,-75.083,-5,21
+488,USA MI Mount Clemens Selfridge Fld (TMY3).csv,TMY3,725377,Mount Clemens Selfridge Fld,MI,USA,42.617,-82.833,-5,177
+489,USA ND Fargo Hector International Ap (TMY3).csv,TMY3,727530,Fargo Hector International Ap,ND,USA,46.933,-96.817,-6,274
+490,USA LA Shreveport Downtown (TMY3).csv,TMY3,722484,Shreveport Downtown,LA,USA,32.533,-93.75,-6,55
+491,USA MI Kalamazoo Battle Cr (TMY3).csv,TMY3,726357,Kalamazoo Battle Cr,MI,USA,42.233,-85.55,-5,273
+492,USA MS Meridian Key Field (TMY3).csv,TMY3,722340,Meridian Key Field,MS,USA,32.333,-88.75,-6,90
+493,USA WI Green Bay Austin Straubel Int (TMY3).csv,TMY3,726450,Green Bay Austin Straubel Int,WI,USA,44.483,-88.133,-6,209
+494,USA MN Alexandria Municipal Ap (TMY3).csv,TMY3,726557,Alexandria Municipal Ap,MN,USA,45.883,-95.4,-6,433
+495,USA MA Worchester Regional Arpt (TMY3).csv,TMY3,725095,Worchester Regional Arpt,MA,USA,42.267,-71.883,-5,300
+496,USA NE Alliance Municipal (TMY3).csv,TMY3,725635,Alliance Municipal,NE,USA,42.05,-102.8,-7,1198
+497,USA LA New Iberia Naas (TMY3).csv,TMY3,722314,New Iberia Naas,LA,USA,30.033,-91.883,-6,8
+498,USA PA Philadelphia Ne Philadelphia (TMY3).csv,TMY3,724085,Philadelphia Ne Philadelphia,PA,USA,40.083,-75.017,-5,30
+499,USA IA Mason City Municipal Arpt (TMY3).csv,TMY3,725485,Mason City Municipal Arpt,IA,USA,43.15,-93.333,-6,364
+500,USA WI La Crosse Municipal Arpt (TMY3).csv,TMY3,726430,La Crosse Municipal Arpt,WI,USA,43.867,-91.25,-6,198
+501,USA TX Del Rio Laughlin Afb (TMY3).csv,TMY3,722615,Del Rio Laughlin Afb,TX,USA,29.367,-100.783,-6,327
+502,USA NY Watertown Ap (TMY3).csv,TMY3,726227,Watertown Ap,NY,USA,44.0,-76.017,-5,97
+503,USA KY Lexington Bluegrass Ap (TMY3).csv,TMY3,724220,Lexington Bluegrass Ap,KY,USA,38.033,-84.6,-5,294
+504,USA PA Franklin (TMY3).csv,TMY3,725267,Franklin,PA,USA,41.383,-79.867,-5,470
+505,USA MN Ely Muni (TMY3).csv,TMY3,727459,Ely Muni,MN,USA,47.817,-91.833,-6,455
+506,USA MD Patuxent River Nas (TMY3).csv,TMY3,724040,Patuxent River Nas,MD,USA,38.3,-76.417,-5,14
+507,USA NY Poughkeepsie Dutchess Co Ap (TMY3).csv,TMY3,725036,Poughkeepsie Dutchess Co Ap,NY,USA,41.633,-73.883,-5,47
+508,USA IA Knoxville (TMY3).csv,TMY3,725493,Knoxville,IA,USA,41.3,-93.117,-6,283
+509,USA CA Oxnard Airport (TMY3).csv,TMY3,723927,Oxnard Airport,CA,USA,34.2,-119.2,-8,11
+510,USA NJ Teterboro Airport (TMY3).csv,TMY3,725025,Teterboro Airport,NJ,USA,40.85,-74.067,-5,3
+511,USA CO Denver Centennial [golden - Nrel] (TMY3).csv,TMY3,724666,Denver Centennial [golden - Nrel],CO,USA,39.742,-105.179,-7,1829
+512,USA MN Marshall Ryan(awos) (TMY3).csv,TMY3,726559,Marshall Ryan(awos),MN,USA,44.45,-95.817,-6,359
+513,USA MA Boston Logan Int'l Arpt (TMY3).csv,TMY3,725090,Boston Logan Int'l Arpt,MA,USA,42.367,-71.017,-5,6
+514,USA CA Blythe Riverside Co Arpt (TMY3).csv,TMY3,747188,Blythe Riverside Co Arpt,CA,USA,33.617,-114.717,-8,119
+515,USA CA Ukiah Municipal Ap (TMY3).csv,TMY3,725905,Ukiah Municipal Ap,CA,USA,39.133,-123.2,-8,189
+516,USA KY Fort Campbell Aaf (TMY3).csv,TMY3,746710,Fort Campbell Aaf,KY,USA,36.667,-87.483,-6,173
+517,USA NY Republic (TMY3).csv,TMY3,744864,Republic,NY,USA,40.717,-73.417,-5,26
+518,USA NC Fayetteville Rgnl G (TMY3).csv,TMY3,723035,Fayetteville Rgnl G,NC,USA,34.983,-78.883,-5,59
+519,USA CO Fort Collins (awos) (TMY3).csv,TMY3,724769,Fort Collins (awos),CO,USA,40.45,-105.017,-7,1529
+520,USA IA Burlington Municipal Ap (TMY3).csv,TMY3,725455,Burlington Municipal Ap,IA,USA,40.783,-91.117,-6,211
+521,USA GA Valdosta Wb Airport (TMY3).csv,TMY3,722166,Valdosta Wb Airport,GA,USA,30.783,-83.283,-5,61
+522,USA TX Mcallen Miller Intl Ap [edinburg - Ut] (TMY3).csv,TMY3,722506,Mcallen Miller Intl Ap [edinburg - Ut],TX,USA,26.31,-98.17,-6,30
+523,USA MI Ironwood (awos) (TMY3).csv,TMY3,727445,Ironwood (awos),MI,USA,46.533,-90.133,-6,375
+524,USA TX San Antonio Intl Ap (TMY3).csv,TMY3,722530,San Antonio Intl Ap,TX,USA,29.533,-98.467,-6,247
+525,USA OR Baker Municipal Ap (TMY3).csv,TMY3,726886,Baker Municipal Ap,OR,USA,44.833,-117.817,-8,1027
+526,USA MN Flying Cloud (TMY3).csv,TMY3,726579,Flying Cloud,MN,USA,44.817,-93.45,-6,283
+527,USA TX Dalhart Municipal Ap (TMY3).csv,TMY3,722636,Dalhart Municipal Ap,TX,USA,36.017,-102.55,-6,1216
+528,USA ID Lewiston Nez Perce Cnty Ap (TMY3).csv,TMY3,727830,Lewiston Nez Perce Cnty Ap,ID,USA,46.367,-117.017,-8,438
+529,USA KS Wichita Col. Jabara (TMY3).csv,TMY3,724504,Wichita Col. Jabara,KS,USA,37.75,-97.217,-6,433
+530,USA LA Houma-terrebonne (TMY3).csv,TMY3,722406,Houma-terrebonne,LA,USA,29.567,-90.667,-6,3
+531,USA CA Carlsbad Palomar (TMY3).csv,TMY3,722927,Carlsbad Palomar,CA,USA,33.133,-117.283,-8,100
+532,USA NV Ely Yelland Field (TMY3).csv,TMY3,724860,Ely Yelland Field,NV,USA,39.3,-114.85,-8,1909
+533,USA CA Crescent City Faa Ai (TMY3).csv,TMY3,725946,Crescent City Faa Ai,CA,USA,41.783,-124.233,-8,17
+534,USA WI Antigo Lang(awos) (TMY3).csv,TMY3,726626,Antigo Lang(awos),WI,USA,45.15,-87.15,-5,464
+535,USA VA Richmond International Ap (TMY3).csv,TMY3,724010,Richmond International Ap,VA,USA,37.517,-77.317,-5,50
+536,USA WA Gray Aaf (TMY3).csv,TMY3,742070,Gray Aaf,WA,USA,47.083,-122.583,-8,90
+537,USA TX Dallas Addison Arpt (TMY3).csv,TMY3,722598,Dallas Addison Arpt,TX,USA,32.967,-96.833,-6,196
+538,USA MN South St Paul Muni (TMY3).csv,TMY3,726603,South St Paul Muni,MN,USA,44.85,-93.15,-6,250
+539,USA NE Imperial Faa Ap (TMY3).csv,TMY3,725626,Imperial Faa Ap,NE,USA,40.517,-101.617,-7,998
+540,USA KY Fort Knox Godman Aaf (TMY3).csv,TMY3,724240,Fort Knox Godman Aaf,KY,USA,37.9,-85.967,-5,239
+541,USA OR Roseburg Regional Ap (TMY3).csv,TMY3,726904,Roseburg Regional Ap,OR,USA,43.233,-123.35,-8,160
+542,USA NY Monticello(awos) (TMY3).csv,TMY3,725145,Monticello(awos),NY,USA,41.7,-74.8,-5,428
+543,USA CA Riverside Muni (TMY3).csv,TMY3,722869,Riverside Muni,CA,USA,33.95,-117.45,-8,256
+544,USA MT Billings Logan Int'l Arpt (TMY3).csv,TMY3,726770,Billings Logan Int'l Arpt,MT,USA,45.8,-108.55,-7,1087
+545,USA VA Charlottesville Faa (TMY3).csv,TMY3,724016,Charlottesville Faa,VA,USA,38.133,-78.45,-5,190
+546,USA VA Langley Afb (TMY3).csv,TMY3,745980,Langley Afb,VA,USA,37.083,-76.35,-5,3
+547,USA CA Chino Airport (TMY3).csv,TMY3,722899,Chino Airport,CA,USA,33.967,-117.633,-8,198
+548,USA IL Springfield Capital Ap (TMY3).csv,TMY3,724390,Springfield Capital Ap,IL,USA,39.85,-89.683,-6,179
+549,USA NE Broken Bow Muni (TMY3).csv,TMY3,725555,Broken Bow Muni,NE,USA,41.433,-99.65,-6,776
+550,USA MN Redwood Falls Muni (TMY3).csv,TMY3,726556,Redwood Falls Muni,MN,USA,44.55,-95.083,-6,312
+551,USA IL Peoria Greater Peoria Ap (TMY3).csv,TMY3,725320,Peoria Greater Peoria Ap,IL,USA,40.667,-89.683,-6,199
+552,USA ME Bar Harbor (awos) (TMY3).csv,TMY3,726077,Bar Harbor (awos),ME,USA,44.45,-68.367,-5,26
+553,USA SD Chan Gurney Muni (TMY3).csv,TMY3,726525,Chan Gurney Muni,SD,USA,42.917,-97.383,-6,408
+554,USA MN Minneapolis Crystal (TMY3).csv,TMY3,726575,Minneapolis Crystal,MN,USA,45.067,-93.35,-6,265
+555,USA MO Columbia Regional Airport (TMY3).csv,TMY3,724450,Columbia Regional Airport,MO,USA,38.817,-92.217,-6,272
+556,USA MO Whiteman Afb (TMY3).csv,TMY3,724467,Whiteman Afb,MO,USA,38.717,-93.55,-6,255
+557,USA AR Harrison Faa Ap (TMY3).csv,TMY3,723446,Harrison Faa Ap,AR,USA,36.267,-93.15,-6,419
+558,USA FL Fort Lauderdale (TMY3).csv,TMY3,722039,Fort Lauderdale,FL,USA,26.2,-80.167,-5,4
+559,USA MN Detroit Lakes(awos) (TMY3).csv,TMY3,727457,Detroit Lakes(awos),MN,USA,46.833,-95.883,-6,426
+560,USA IN Lafayette Purdue Univ Ap (TMY3).csv,TMY3,724386,Lafayette Purdue Univ Ap,IN,USA,40.417,-86.933,-5,183
+561,USA TX Waco Regional Ap (TMY3).csv,TMY3,722560,Waco Regional Ap,TX,USA,31.617,-97.233,-6,152
+562,USA ND Minot Faa Ap (TMY3).csv,TMY3,727676,Minot Faa Ap,ND,USA,48.267,-101.283,-6,523
+563,USA NE Omaha Eppley Airfield (TMY3).csv,TMY3,725500,Omaha Eppley Airfield,NE,USA,41.317,-95.9,-6,299
+564,USA MI Jackson Reynolds Field (TMY3).csv,TMY3,725395,Jackson Reynolds Field,MI,USA,42.267,-84.467,-5,304
+565,USA NC Fayetteville Pope Afb (TMY3).csv,TMY3,723030,Fayetteville Pope Afb,NC,USA,35.167,-79.017,-5,66
+566,USA CA Camarillo (awos) (TMY3).csv,TMY3,723926,Camarillo (awos),CA,USA,34.217,-119.083,-8,23
+567,USA PA Middletown Harrisburg Intl Ap (TMY3).csv,TMY3,725115,Middletown Harrisburg Intl Ap,PA,USA,40.2,-76.767,-5,92
+568,USA CA Arcata Airport (TMY3).csv,TMY3,725945,Arcata Airport,CA,USA,40.983,-124.1,-8,62
+569,USA IL Chicago Ohare Intl Ap (TMY3).csv,TMY3,725300,Chicago Ohare Intl Ap,IL,USA,41.983,-87.917,-6,201
+570,USA SD Huron Regional Arpt (TMY3).csv,TMY3,726540,Huron Regional Arpt,SD,USA,44.4,-98.217,-6,390
+571,USA WI Rice Lake Municipal (TMY3).csv,TMY3,726467,Rice Lake Municipal,WI,USA,45.483,-91.717,-6,347
+572,USA TX Dallas Love Field (TMY3).csv,TMY3,722583,Dallas Love Field,TX,USA,32.85,-96.85,-6,134
+573,USA OH Dayton Wright Patterson Afb (TMY3).csv,TMY3,745700,Dayton Wright Patterson Afb,OH,USA,39.833,-84.05,-5,250
+574,USA NM Taos Muni Apt(awos) (TMY3).csv,TMY3,723663,Taos Muni Apt(awos),NM,USA,36.45,-105.667,-7,2161
+575,USA MT Cut Bank Muni Ap (TMY3).csv,TMY3,727796,Cut Bank Muni Ap,MT,USA,48.6,-112.367,-7,1170
+576,USA KY Louisville Bowman Field (TMY3).csv,TMY3,724235,Louisville Bowman Field,KY,USA,38.233,-85.667,-5,165
+577,USA WY Cheyenne Municipal Arpt (TMY3).csv,TMY3,725640,Cheyenne Municipal Arpt,WY,USA,41.15,-104.8,-7,1867
+578,USA IN Huntingburg (TMY3).csv,TMY3,724365,Huntingburg,IN,USA,38.25,-86.95,-5,161
+579,USA KS Emporia Municipal Ap (TMY3).csv,TMY3,724556,Emporia Municipal Ap,KS,USA,38.333,-96.183,-6,368
+580,USA VA Winchester Rgnl (TMY3).csv,TMY3,724053,Winchester Rgnl,VA,USA,39.15,-78.15,-5,222
+581,USA VA Oceana Nas (TMY3).csv,TMY3,723075,Oceana Nas,VA,USA,36.817,-76.033,-5,8
+582,USA TX Kingsville (TMY3).csv,TMY3,722516,Kingsville,TX,USA,27.5,-97.817,-6,17
+583,USA LA Lafayette Regional Ap (TMY3).csv,TMY3,722405,Lafayette Regional Ap,LA,USA,30.2,-91.983,-6,12
+584,USA MO Poplar Bluff(amos) (TMY3).csv,TMY3,723300,Poplar Bluff(amos),MO,USA,36.767,-90.467,-6,146
+585,USA MI Saginaw Tri City Intl Ap (TMY3).csv,TMY3,726379,Saginaw Tri City Intl Ap,MI,USA,43.533,-84.083,-5,201
+586,USA CT New Haven Tweed Airport (TMY3).csv,TMY3,725045,New Haven Tweed Airport,CT,USA,41.267,-72.883,-5,2
+587,USA MS Hattiesburg Laurel (TMY3).csv,TMY3,722348,Hattiesburg Laurel,MS,USA,31.467,-89.333,-6,93
+588,USA TX San Antonio Stinson (TMY3).csv,TMY3,722523,San Antonio Stinson,TX,USA,29.333,-98.467,-6,176
+589,USA WI Phillips Price Co. (TMY3).csv,TMY3,726468,Phillips Price Co.,WI,USA,45.7,-90.4,-6,449
+590,USA OK Hobart Municipal Ap (TMY3).csv,TMY3,723525,Hobart Municipal Ap,OK,USA,35.0,-99.05,-6,478
+591,USA MI Grand Rapids Kent County Int' (TMY3).csv,TMY3,726350,Grand Rapids Kent County Int',MI,USA,42.883,-85.517,-5,242
+592,USA AR Springdale Muni (TMY3).csv,TMY3,723434,Springdale Muni,AR,USA,36.183,-94.117,-6,412
+593,USA NM Roswell Industrial Air Park (TMY3).csv,TMY3,722680,Roswell Industrial Air Park,NM,USA,33.3,-104.533,-7,1112
+594,USA NY White Plains Westchester Co A (TMY3).csv,TMY3,725037,White Plains Westchester Co A,NY,USA,41.067,-73.717,-5,122
+595,USA MA Lawrence Muni (TMY3).csv,TMY3,744904,Lawrence Muni,MA,USA,42.717,-71.117,-5,46
+596,USA GA Athens Ben Epps Ap (TMY3).csv,TMY3,723110,Athens Ben Epps Ap,GA,USA,33.95,-83.333,-5,244
+597,USA CO Alamosa San Luis Valley Rgnl (TMY3).csv,TMY3,724620,Alamosa San Luis Valley Rgnl,CO,USA,37.433,-105.867,-7,2296
+598,USA FL Miami Intl Ap (TMY3).csv,TMY3,722020,Miami Intl Ap,FL,USA,25.817,-80.3,-5,11
+599,USA NY Syracuse Hancock Int'l Arpt (TMY3).csv,TMY3,725190,Syracuse Hancock Int'l Arpt,NY,USA,43.117,-76.1,-5,125
+600,USA UT Delta (TMY3).csv,TMY3,724795,Delta,UT,USA,39.333,-112.583,-7,1414
+601,USA CO Colorado Springs Muni Ap (TMY3).csv,TMY3,724660,Colorado Springs Muni Ap,CO,USA,38.817,-104.717,-7,1872
+602,USA CO Eagle County Ap (TMY3).csv,TMY3,724675,Eagle County Ap,CO,USA,39.65,-106.917,-7,1980
+603,USA AL Cairns Field Fort Rucker (TMY3).csv,TMY3,722269,Cairns Field Fort Rucker,AL,USA,31.267,-85.717,-6,91
+604,USA FL Key West Intl Arpt (TMY3).csv,TMY3,722010,Key West Intl Arpt,FL,USA,24.55,-81.75,-5,1
+605,USA IA Newton Muni (TMY3).csv,TMY3,725464,Newton Muni,IA,USA,41.683,-93.017,-6,290
+606,USA MT Bozeman Gallatin Field (TMY3).csv,TMY3,726797,Bozeman Gallatin Field,MT,USA,45.8,-111.15,-7,1349
+607,USA NE Sidney Municipal Ap (TMY3).csv,TMY3,725610,Sidney Municipal Ap,NE,USA,41.1,-102.983,-7,1313
+608,USA ME Waterville (awos) (TMY3).csv,TMY3,726073,Waterville (awos),ME,USA,44.533,-69.683,-5,101
+609,USA WV Wheeling Ohio County Ap (TMY3).csv,TMY3,724275,Wheeling Ohio County Ap,WV,USA,40.183,-80.65,-5,359
+610,USA NM Clovis Cannon Afb (TMY3).csv,TMY3,722686,Clovis Cannon Afb,NM,USA,34.383,-103.317,-7,1309
+611,USA WI Sturgeon Bay (TMY3).csv,TMY3,726458,Sturgeon Bay,WI,USA,44.85,-87.417,-5,221
+612,USA IA Waterloo Municipal Ap (TMY3).csv,TMY3,725480,Waterloo Municipal Ap,IA,USA,42.55,-92.4,-6,264
+613,USA ND Devils Lake(awos) (TMY3).csv,TMY3,727573,Devils Lake(awos),ND,USA,48.117,-98.917,-6,443
+614,USA FL Lakeland Linder Rgn (TMY3).csv,TMY3,722119,Lakeland Linder Rgn,FL,USA,27.983,-82.017,-5,43
+615,USA SD Rapid City Regional Arpt (TMY3).csv,TMY3,726620,Rapid City Regional Arpt,SD,USA,44.05,-103.05,-7,963
+616,USA PA Butler Co. (awos) (TMY3).csv,TMY3,725124,Butler Co. (awos),PA,USA,40.783,-79.95,-5,380
+617,USA OH Ohio State Universi (TMY3).csv,TMY3,724288,Ohio State Universi,OH,USA,40.067,-83.067,-5,283
+618,USA MO Springfield Regional Arpt (TMY3).csv,TMY3,724400,Springfield Regional Arpt,MO,USA,37.233,-93.383,-6,384
+619,USA NH Manchester Airport (TMY3).csv,TMY3,743945,Manchester Airport,NH,USA,42.933,-71.433,-5,69
+620,USA TX Houston William P Hobby Ap (TMY3).csv,TMY3,722435,Houston William P Hobby Ap,TX,USA,29.65,-95.283,-6,13
+621,USA VA Quantico Mcas (TMY3).csv,TMY3,724035,Quantico Mcas,VA,USA,38.5,-77.3,-5,4
+622,USA NE Bellevue Offutt Afb (TMY3).csv,TMY3,725540,Bellevue Offutt Afb,NE,USA,41.117,-95.917,-6,319
+623,USA MT Helena Regional Airport (TMY3).csv,TMY3,727720,Helena Regional Airport,MT,USA,46.6,-111.967,-7,1167
+624,USA AR El Dorado Goodwin Field (TMY3).csv,TMY3,723419,El Dorado Goodwin Field,AR,USA,33.217,-92.817,-6,77
+625,USA WA Wenatchee Pangborn (TMY3).csv,TMY3,727825,Wenatchee Pangborn,WA,USA,47.4,-120.2,-8,379
+626,USA FL St Petersburg Clear (TMY3).csv,TMY3,722116,St Petersburg Clear,FL,USA,27.9,-82.683,-5,3
+627,USA IL Chicago Waukegan (TMY3).csv,TMY3,725347,Chicago Waukegan,IL,USA,42.417,-87.867,-6,222
+628,USA FL Ocala Muni (awos) (TMY3).csv,TMY3,722055,Ocala Muni (awos),FL,USA,29.167,-82.217,-5,27
+629,USA PA Philadelphia International Ap (TMY3).csv,TMY3,724080,Philadelphia International Ap,PA,USA,39.867,-75.233,-5,2
+630,USA MO St Louis Spirit Of St Louis A (TMY3).csv,TMY3,724345,St Louis Spirit Of St Louis A,MO,USA,38.65,-90.65,-6,141
+631,USA AR Batesville (awos) (TMY3).csv,TMY3,723448,Batesville (awos),AR,USA,35.733,-91.65,-6,141
+632,USA MN Little Falls (awos) (TMY3).csv,TMY3,726578,Little Falls (awos),MN,USA,45.95,-94.35,-6,342
+633,USA CA Palm Springs Intl (TMY3).csv,TMY3,722868,Palm Springs Intl,CA,USA,33.833,-116.5,-8,145
+634,USA IA Charles City (TMY3).csv,TMY3,725463,Charles City,IA,USA,43.067,-92.617,-6,343
+635,USA CA Truckee-tahoe (TMY3).csv,TMY3,725846,Truckee-tahoe,CA,USA,39.317,-120.133,-8,1798
+636,USA WY Jackson Hole (TMY3).csv,TMY3,725776,Jackson Hole,WY,USA,43.6,-110.733,-7,2016
+637,USA WY Rawlins Municipal Ap (TMY3).csv,TMY3,725745,Rawlins Municipal Ap,WY,USA,41.8,-107.2,-7,2053
+638,USA SD Pierre Municipal Ap (TMY3).csv,TMY3,726686,Pierre Municipal Ap,SD,USA,44.383,-100.283,-7,528
+639,USA ND Grand Forks International Ap (TMY3).csv,TMY3,727576,Grand Forks International Ap,ND,USA,47.95,-97.183,-6,256
+640,USA MS Greenville Municipal (TMY3).csv,TMY3,722356,Greenville Municipal,MS,USA,33.483,-90.983,-6,42
+641,USA CA Santa Maria Public Arpt (TMY3).csv,TMY3,723940,Santa Maria Public Arpt,CA,USA,34.917,-120.467,-8,77
+642,USA KS Dodge City Regional Ap (TMY3).csv,TMY3,724510,Dodge City Regional Ap,KS,USA,37.767,-99.967,-6,785
+643,USA CO Cortez Montezuma Co (TMY3).csv,TMY3,724767,Cortez Montezuma Co,CO,USA,37.3,-108.633,-7,1803
+644,USA MN Fosston(awos) (TMY3).csv,TMY3,727505,Fosston(awos),MN,USA,47.583,-95.767,-6,388
+645,USA TX Lubbock International Ap (TMY3).csv,TMY3,722670,Lubbock International Ap,TX,USA,33.667,-101.817,-6,992
+646,USA IL Rockford Greater Rockford Ap (TMY3).csv,TMY3,725430,Rockford Greater Rockford Ap,IL,USA,42.2,-89.1,-6,223
+647,USA PA Harrisburg Capital City Arpt (TMY3).csv,TMY3,725118,Harrisburg Capital City Arpt,PA,USA,40.217,-76.85,-5,104
+648,USA CA Los Angeles Intl Arpt (TMY3).csv,TMY3,722950,Los Angeles Intl Arpt,CA,USA,33.933,-118.4,-8,30
+649,USA IA Shenandoah Muni (TMY3).csv,TMY3,725467,Shenandoah Muni,IA,USA,40.75,-95.417,-6,296
+650,USA MN Fergus Falls(awos) (TMY3).csv,TMY3,726560,Fergus Falls(awos),MN,USA,46.283,-96.15,-6,361
+651,USA MI Detroit Willow Run Ap (TMY3).csv,TMY3,725376,Detroit Willow Run Ap,MI,USA,42.233,-83.533,-5,218
+652,USA HI Hilo International Ap (TMY3).csv,TMY3,912850,Hilo International Ap,HI,USA,19.717,-155.05,-10,9
+653,USA WA Yakima Air Terminal (TMY3).csv,TMY3,727810,Yakima Air Terminal,WA,USA,46.567,-120.55,-8,324
+654,USA NE Columbus Muni (TMY3).csv,TMY3,725565,Columbus Muni,NE,USA,41.45,-97.333,-6,451
+655,USA SC Myrtle Beach Afb (TMY3).csv,TMY3,747910,Myrtle Beach Afb,SC,USA,33.683,-78.933,-5,8
+656,USA CO Grand Junction Walker Field (TMY3).csv,TMY3,724760,Grand Junction Walker Field,CO,USA,39.133,-108.533,-7,1475
+657,USA MN Cambridge Muni (TMY3).csv,TMY3,727503,Cambridge Muni,MN,USA,45.567,-93.267,-6,287
+658,USA NC Goldsboro Seymour Johnson Afb (TMY3).csv,TMY3,723066,Goldsboro Seymour Johnson Afb,NC,USA,35.35,-77.967,-5,33
+659,USA CO Denver Intl Ap (TMY3).csv,TMY3,725650,Denver Intl Ap,CO,USA,39.833,-104.65,-7,1650
+660,USA LA Lake Charles Wb Airp (TMY3).csv,TMY3,722404,Lake Charles Wb Airp,LA,USA,30.217,-93.167,-6,5
+661,USA CO Lamar Municipal (TMY3).csv,TMY3,724636,Lamar Municipal,CO,USA,38.067,-102.683,-7,1129
+662,USA MD Salisbury Wicomico Co Ap (TMY3).csv,TMY3,724045,Salisbury Wicomico Co Ap,MD,USA,38.333,-75.517,-5,15
+663,USA MT Missoula International Ap (TMY3).csv,TMY3,727730,Missoula International Ap,MT,USA,46.917,-114.1,-7,973
+664,USA MN Hibbing Chisholm-hibbing Ap (TMY3).csv,TMY3,727455,Hibbing Chisholm-hibbing Ap,MN,USA,47.383,-92.85,-6,411
+665,USA MN St Paul Downtown Ap (TMY3).csv,TMY3,726584,St Paul Downtown Ap,MN,USA,44.933,-93.05,-6,220
+666,USA WA Pullman Moscow Rgnl (TMY3).csv,TMY3,727857,Pullman Moscow Rgnl,WA,USA,46.75,-117.117,-8,778
+667,USA LA Patterson Memorial (TMY3).csv,TMY3,722329,Patterson Memorial,LA,USA,29.717,-91.333,-6,3
+668,USA TX Longview Gregg County Ap [overton - Ut] (TMY3).csv,TMY3,722470,Longview Gregg County Ap [overton - Ut],TX,USA,32.29,-94.98,-6,146
+669,USA UT Bryce Cnyn Faa Ap (TMY3).csv,TMY3,724756,Bryce Cnyn Faa Ap,UT,USA,37.7,-112.15,-7,2312
+670,USA MI Iron Mountain Ford (TMY3).csv,TMY3,727437,Iron Mountain Ford,MI,USA,45.817,-88.117,-6,360
+671,USA WY Rock Springs Arpt [green River - Uo] (TMY3).csv,TMY3,725744,Rock Springs Arpt [green River - Uo],WY,USA,41.46,-109.44,-7,1000
+672,USA MS Jackson International Ap (TMY3).csv,TMY3,722350,Jackson International Ap,MS,USA,32.317,-90.083,-6,94
+673,USA WV Charleston Yeager Arpt (TMY3).csv,TMY3,724140,Charleston Yeager Arpt,WV,USA,38.383,-81.583,-5,310
+674,USA GA Rome R B Russell Ap (TMY3).csv,TMY3,723200,Rome R B Russell Ap,GA,USA,34.35,-85.167,-5,195
+675,USA MA Beverly Muni (TMY3).csv,TMY3,725088,Beverly Muni,MA,USA,42.583,-70.917,-5,34
+676,USA MA Marthas Vineyard (TMY3).csv,TMY3,725066,Marthas Vineyard,MA,USA,41.4,-70.617,-5,21
+677,USA MS Columbus Afb (TMY3).csv,TMY3,723306,Columbus Afb,MS,USA,33.65,-88.45,-6,68
+678,USA NH Pease Intl Tradepor (TMY3).csv,TMY3,726055,Pease Intl Tradepor,NH,USA,43.083,-70.817,-5,31
+679,USA IA Council Bluffs (TMY3).csv,TMY3,725497,Council Bluffs,IA,USA,41.267,-95.767,-6,382
+680,USA NE North Platte Regional Ap (TMY3).csv,TMY3,725620,North Platte Regional Ap,NE,USA,41.117,-100.667,-6,847
+681,USA WI Wittman Rgnl (TMY3).csv,TMY3,726456,Wittman Rgnl,WI,USA,43.983,-88.55,-6,253
+682,USA MI Muskegon County Arpt (TMY3).csv,TMY3,726360,Muskegon County Arpt,MI,USA,43.167,-86.233,-5,190
+683,USA AR Siloam Spring(awos) (TMY3).csv,TMY3,723443,Siloam Spring(awos),AR,USA,36.183,-94.483,-6,364
+684,USA PA Dubois Faa Ap (TMY3).csv,TMY3,725125,Dubois Faa Ap,PA,USA,41.183,-78.9,-5,553
+685,USA MN St Cloud Regional Arpt (TMY3).csv,TMY3,726550,St Cloud Regional Arpt,MN,USA,45.55,-94.05,-6,311
+686,USA UT Ogden Hill Afb (TMY3).csv,TMY3,725755,Ogden Hill Afb,UT,USA,41.117,-111.967,-7,1459
+687,USA MN Bemidji Municipal (TMY3).csv,TMY3,727550,Bemidji Municipal,MN,USA,47.5,-94.933,-6,420
+688,USA MT Sidney-richland (TMY3).csv,TMY3,727687,Sidney-richland,MT,USA,47.7,-104.2,-7,605
+689,USA NM Las Vegas Municipal Arpt (TMY3).csv,TMY3,723677,Las Vegas Municipal Arpt,NM,USA,35.65,-105.15,-7,2093
+690,USA AZ Casa Granda (awos) (TMY3).csv,TMY3,722748,Casa Granda (awos),AZ,USA,32.95,-111.767,-7,446
+691,USA AZ Prescott Love Field (TMY3).csv,TMY3,723723,Prescott Love Field,AZ,USA,34.65,-112.417,-7,1537
+692,USA MT Glendive(awos) (TMY3).csv,TMY3,726676,Glendive(awos),MT,USA,47.133,-104.8,-7,749
+693,USA MI Pellston Emmet County Ap (TMY3).csv,TMY3,727347,Pellston Emmet County Ap,MI,USA,45.567,-84.783,-5,218
+694,USA AR Bentonville (awos) (TMY3).csv,TMY3,723444,Bentonville (awos),AR,USA,36.35,-94.217,-6,395
+695,USA ME Houlton Intl Arpt (TMY3).csv,TMY3,727033,Houlton Intl Arpt,ME,USA,46.117,-67.8,-5,150
+696,USA RI Pawtucket (awos) (TMY3).csv,TMY3,725054,Pawtucket (awos),RI,USA,41.917,-71.5,-5,134
+697,USA NJ Atlantic City Intl Ap (TMY3).csv,TMY3,724070,Atlantic City Intl Ap,NJ,USA,39.45,-74.567,-5,18
+698,USA MN Mankato(awos) (TMY3).csv,TMY3,726585,Mankato(awos),MN,USA,44.217,-93.917,-6,311
+699,USA VA Hillsville (TMY3).csv,TMY3,724107,Hillsville,VA,USA,36.767,-80.817,-5,834
+700,USA KS Fort Riley Marshall Aaf (TMY3).csv,TMY3,724550,Fort Riley Marshall Aaf,KS,USA,39.05,-96.767,-6,324
+701,USA OK Gage Airport (TMY3).csv,TMY3,723527,Gage Airport,OK,USA,36.3,-99.767,-6,668
+702,USA WI Appleton Outagamie (TMY3).csv,TMY3,726457,Appleton Outagamie,WI,USA,44.25,-88.517,-6,280
+703,USA TX Hondo Municipal Ap (TMY3).csv,TMY3,722533,Hondo Municipal Ap,TX,USA,29.367,-99.167,-6,280
+704,USA UT Blanding (TMY3).csv,TMY3,724723,Blanding,UT,USA,37.617,-109.483,-7,1841
+705,USA OK Altus Afb (TMY3).csv,TMY3,723520,Altus Afb,OK,USA,34.65,-99.267,-6,414
+706,USA FL Naples Municipal (TMY3).csv,TMY3,722038,Naples Municipal,FL,USA,26.15,-81.767,-5,3
+707,USA IA Fair Field (TMY3).csv,TMY3,726498,Fair Field,IA,USA,41.05,-91.983,-6,244
+708,USA NC Charlotte Douglas Intl Arpt (TMY3).csv,TMY3,723140,Charlotte Douglas Intl Arpt,NC,USA,35.217,-80.95,-5,222
+709,USA CA China Lake Naf (TMY3).csv,TMY3,746120,China Lake Naf,CA,USA,35.683,-117.683,-8,677
+710,USA NV Fallon Naas (TMY3).csv,TMY3,724885,Fallon Naas,NV,USA,39.417,-118.717,-8,1199
+711,USA IN Monroe Co (TMY3).csv,TMY3,724375,Monroe Co,IN,USA,39.133,-86.617,-5,264
+712,USA OK Oklahoma City Tinker Afb (TMY3).csv,TMY3,723540,Oklahoma City Tinker Afb,OK,USA,35.417,-97.383,-6,384
+713,USA OR Portland Hillsboro (TMY3).csv,TMY3,726986,Portland Hillsboro,OR,USA,45.533,-122.95,-8,62
+714,USA MT Wolf Point Intl [fort Peck - Surfrad] (TMY3).csv,TMY3,727686,Wolf Point Intl [fort Peck - Surfrad],MT,USA,48.31,-105.1,-7,634
+715,USA ID Coeur D`alene(awos) (TMY3).csv,TMY3,727834,Coeur D`alene(awos),ID,USA,47.767,-116.817,-8,707
+716,USA LA New Orleans Intl Arpt (TMY3).csv,TMY3,722310,New Orleans Intl Arpt,LA,USA,30.0,-90.25,-6,1
+717,USA ME Augusta Airport (TMY3).csv,TMY3,726185,Augusta Airport,ME,USA,44.317,-69.8,-5,107
+718,USA NV Elko Municipal Arpt (TMY3).csv,TMY3,725825,Elko Municipal Arpt,NV,USA,40.833,-115.8,-8,1548
+719,USA ME Presque Isle Municip (TMY3).csv,TMY3,727130,Presque Isle Municip,ME,USA,46.683,-68.05,-5,163
+720,USA MS Mccomb Pike County Ap (TMY3).csv,TMY3,722358,Mccomb Pike County Ap,MS,USA,31.233,-90.467,-6,126
+721,USA AZ Deer Valley Phoenix (TMY3).csv,TMY3,722784,Deer Valley Phoenix,AZ,USA,33.683,-112.083,-7,450
+722,USA NY Stewart Field (TMY3).csv,TMY3,725038,Stewart Field,NY,USA,41.5,-74.1,-5,177
+723,USA CA Long Beach Daugherty Fld (TMY3).csv,TMY3,722970,Long Beach Daugherty Fld,CA,USA,33.833,-118.167,-8,8
+724,USA TX Houston Bush Intercontinental (TMY3).csv,TMY3,722430,Houston Bush Intercontinental,TX,USA,30.0,-95.367,-6,29
+725,USA VT Springfield Hartnes (TMY3).csv,TMY3,726115,Springfield Hartnes,VT,USA,43.35,-72.517,-5,176
+726,USA IA Keokuk Muni (TMY3).csv,TMY3,725456,Keokuk Muni,IA,USA,40.467,-91.433,-6,205
+727,USA LA England Afb (TMY3).csv,TMY3,747540,England Afb,LA,USA,31.317,-92.55,-6,27
+728,USA OR Astoria Regional Airport (TMY3).csv,TMY3,727910,Astoria Regional Airport,OR,USA,46.15,-123.883,-8,3
+729,USA MN Crane Lake (awos) (TMY3).csv,TMY3,727473,Crane Lake (awos),MN,USA,46.267,-92.567,-6,350
+730,USA CA Santa Monica Muni (TMY3).csv,TMY3,722885,Santa Monica Muni,CA,USA,34.017,-118.45,-8,53
+731,USA MI Menominee (awos) (TMY3).csv,TMY3,726487,Menominee (awos),MI,USA,45.133,-87.633,-6,191
+732,USA NC Pitt Greenville Arp (TMY3).csv,TMY3,723065,Pitt Greenville Arp,NC,USA,35.633,-77.4,-5,8
+733,USA HI Kona Intl At Keahol (TMY3).csv,TMY3,911975,Kona Intl At Keahol,HI,USA,19.733,-156.05,-10,15
+734,USA OK Lawton Municipal (TMY3).csv,TMY3,723575,Lawton Municipal,OK,USA,34.567,-98.417,-6,338
+735,USA LA Alexandria Esler Regional Ap (TMY3).csv,TMY3,722487,Alexandria Esler Regional Ap,LA,USA,31.4,-92.3,-6,34
+736,USA MA New Bedford Rgnl (TMY3).csv,TMY3,725065,New Bedford Rgnl,MA,USA,41.667,-70.95,-5,25
+737,USA CA Blue Canyon Ap (TMY3).csv,TMY3,725845,Blue Canyon Ap,CA,USA,39.3,-120.717,-8,1609
+738,USA CA Livermore Municipal (TMY3).csv,TMY3,724927,Livermore Municipal,CA,USA,37.7,-121.817,-8,121
+739,USA CA Oakland Metropolitan Arpt (TMY3).csv,TMY3,724930,Oakland Metropolitan Arpt,CA,USA,37.717,-122.217,-8,2
+740,USA TX Dallas Redbird Arpt (TMY3).csv,TMY3,722599,Dallas Redbird Arpt,TX,USA,32.683,-96.867,-6,201
+741,USA MI Chippewa Co Intl (TMY3).csv,TMY3,727344,Chippewa Co Intl,MI,USA,46.25,-84.467,-5,250
+742,USA MN Austin Muni (TMY3).csv,TMY3,727566,Austin Muni,MN,USA,43.667,-92.933,-6,375
+743,USA MO Vichy Rolla Natl Arpt (TMY3).csv,TMY3,724456,Vichy Rolla Natl Arpt,MO,USA,38.133,-91.767,-6,336
+744,USA OK Ponca City Municipal Ap [sgp - Arm] (TMY3).csv,TMY3,723546,Ponca City Municipal Ap [sgp - Arm],OK,USA,36.61,-97.49,-6,318
+745,USA IA Atlantic (TMY3).csv,TMY3,725453,Atlantic,IA,USA,41.4,-95.05,-6,360
+746,USA LA Barksdale Afb (TMY3).csv,TMY3,722485,Barksdale Afb,LA,USA,32.5,-93.667,-6,54
+747,USA FL Pensacola Forest Sherman Nas (TMY3).csv,TMY3,722225,Pensacola Forest Sherman Nas,FL,USA,30.35,-87.317,-6,10
+748,USA CA Sandberg (TMY3).csv,TMY3,723830,Sandberg,CA,USA,34.75,-118.717,-8,1377
+749,USA NC Wilmington International Arpt (TMY3).csv,TMY3,723013,Wilmington International Arpt,NC,USA,34.267,-77.9,-5,9
+750,USA UT Salt Lake City Int'l Arpt [isis] (TMY3).csv,TMY3,725720,Salt Lake City Int'l Arpt [isis],UT,USA,40.77,-111.97,-7,1288
+751,USA MN Fairmont Muni(awos) (TMY3).csv,TMY3,726586,Fairmont Muni(awos),MN,USA,43.65,-94.417,-6,354
+752,USA MN Duluth International Arpt (TMY3).csv,TMY3,727450,Duluth International Arpt,MN,USA,46.833,-92.217,-6,433
+753,USA CT Danbury Municipal (TMY3).csv,TMY3,725086,Danbury Municipal,CT,USA,41.367,-73.483,-5,139
+754,USA OH Findlay Airport (TMY3).csv,TMY3,725366,Findlay Airport,OH,USA,41.017,-83.667,-5,244
+755,USA GA Albany Dougherty County Ap (TMY3).csv,TMY3,722160,Albany Dougherty County Ap,GA,USA,31.533,-84.183,-5,58
+756,USA SD Watertown Municipal Ap (TMY3).csv,TMY3,726546,Watertown Municipal Ap,SD,USA,44.933,-97.15,-6,532
+757,USA WA Moses Lake Grant County Ap (TMY3).csv,TMY3,727827,Moses Lake Grant County Ap,WA,USA,47.2,-119.317,-8,364
+758,USA AZ Safford (amos) (TMY3).csv,TMY3,722747,Safford (amos),AZ,USA,32.817,-109.683,-7,950
+759,USA CO Gunnison Co. (awos) (TMY3).csv,TMY3,724677,Gunnison Co. (awos),CO,USA,38.533,-106.933,-7,2339
+760,USA FL Miami Kendall-tamia (TMY3).csv,TMY3,722029,Miami Kendall-tamia,FL,USA,25.65,-80.433,-5,3
+761,USA MN Faribault Muni Awos (TMY3).csv,TMY3,726563,Faribault Muni Awos,MN,USA,44.333,-93.317,-6,322
+762,USA CA Montague Siskiyou County Ap (TMY3).csv,TMY3,725955,Montague Siskiyou County Ap,CA,USA,41.783,-122.467,-8,803
+763,USA AL Troy Af (TMY3).csv,TMY3,722267,Troy Af,AL,USA,31.867,-86.017,-6,120
+764,USA VA Wise Lonesome Pine (TMY3).csv,TMY3,724117,Wise Lonesome Pine,VA,USA,36.983,-82.533,-5,817
+765,USA AL Auburn-opelika Apt (TMY3).csv,TMY3,722284,Auburn-opelika Apt,AL,USA,32.616,-85.433,-6,236
+766,USA MI Ann Arbor Municipal (TMY3).csv,TMY3,725374,Ann Arbor Municipal,MI,USA,42.217,-83.75,-5,256
+767,USA MI Houghton Lake Roscommon Co Ar (TMY3).csv,TMY3,726380,Houghton Lake Roscommon Co Ar,MI,USA,44.367,-84.683,-5,351
+768,USA IA Cedar Rapids Municipal Ap (TMY3).csv,TMY3,725450,Cedar Rapids Municipal Ap,IA,USA,41.883,-91.717,-6,256
+769,USA PA Willow Grove Nas (TMY3).csv,TMY3,724086,Willow Grove Nas,PA,USA,40.2,-75.15,-5,102
+770,USA AL Mobile Regional Ap (TMY3).csv,TMY3,722230,Mobile Regional Ap,AL,USA,30.683,-88.25,-6,66
+771,USA SD Aberdeen Regional Arpt (TMY3).csv,TMY3,726590,Aberdeen Regional Arpt,SD,USA,45.45,-98.417,-6,398
+772,USA NM Albuquerque Intl Arpt [isis] (TMY3).csv,TMY3,723650,Albuquerque Intl Arpt [isis],NM,USA,35.04,-106.62,-7,1619
+773,USA MT Livingston Mission Field (TMY3).csv,TMY3,726798,Livingston Mission Field,MT,USA,45.7,-110.45,-7,1418
+774,USA MI Oscoda Wurtsmith Afb (TMY3).csv,TMY3,726395,Oscoda Wurtsmith Afb,MI,USA,44.45,-83.4,-5,188
+775,USA NC Fort Bragg Simmons Aaf (TMY3).csv,TMY3,746930,Fort Bragg Simmons Aaf,NC,USA,35.133,-78.933,-5,93
+776,USA ND Minot Afb (TMY3).csv,TMY3,727675,Minot Afb,ND,USA,48.417,-101.35,-6,497
+777,USA WA Walla Walla City County Ap (TMY3).csv,TMY3,727846,Walla Walla City County Ap,WA,USA,46.1,-118.283,-8,355
+778,USA ME Millinocket Municipal Ap (TMY3).csv,TMY3,726196,Millinocket Municipal Ap,ME,USA,45.65,-68.683,-5,124
+779,USA SD Ellsworth Afb (TMY3).csv,TMY3,726625,Ellsworth Afb,SD,USA,44.15,-103.1,-7,980
+780,USA NY New York Laguardia Arpt (TMY3).csv,TMY3,725030,New York Laguardia Arpt,NY,USA,40.783,-73.883,-5,3
+781,USA IL Univ Of Illinois Wi [bondville - Surfrad] (TMY3).csv,TMY3,725315,Univ Of Illinois Wi [bondville - Surfrad],IL,USA,40.06,-88.37,-6,213
+782,USA AR Little Rock Adams Field (TMY3).csv,TMY3,723403,Little Rock Adams Field,AR,USA,34.75,-92.233,-6,78
+783,USA AZ Page Muni (amos) (TMY3).csv,TMY3,723710,Page Muni (amos),AZ,USA,36.933,-111.45,-7,1304
+784,USA IA Boone Muni (TMY3).csv,TMY3,725486,Boone Muni,IA,USA,42.05,-93.85,-6,354
+785,USA OH Akron Akron-canton Reg Ap (TMY3).csv,TMY3,725210,Akron Akron-canton Reg Ap,OH,USA,40.917,-81.433,-5,368
+786,USA TX Del Rio [ut] (TMY3).csv,TMY3,722610,Del Rio [ut],TX,USA,29.38,-100.91,-6,308
+787,USA NM Farmington Four Corners Regl (TMY3).csv,TMY3,723658,Farmington Four Corners Regl,NM,USA,36.75,-108.233,-7,1675
+788,USA MI Lansing Capital City Arpt (TMY3).csv,TMY3,725390,Lansing Capital City Arpt,MI,USA,42.783,-84.583,-5,256
+789,USA MN Morris Muni (awos) (TMY3).csv,TMY3,726565,Morris Muni (awos),MN,USA,45.567,-95.967,-6,344
+790,USA ME Portland Intl Jetport (TMY3).csv,TMY3,726060,Portland Intl Jetport,ME,USA,43.65,-70.3,-5,14
+791,USA NY Jamestown (awos) (TMY3).csv,TMY3,725235,Jamestown (awos),NY,USA,42.15,-79.267,-5,525
+792,USA NC New Bern Craven Co Regl Ap (TMY3).csv,TMY3,723095,New Bern Craven Co Regl Ap,NC,USA,35.067,-77.05,-5,5
+793,USA TX Randolph Afb (TMY3).csv,TMY3,722536,Randolph Afb,TX,USA,29.533,-98.283,-6,232
+794,USA TN Memphis International Ap (TMY3).csv,TMY3,723340,Memphis International Ap,TN,USA,35.067,-89.983,-6,81
+795,USA FL Fort Myers Page Field (TMY3).csv,TMY3,722106,Fort Myers Page Field,FL,USA,26.583,-81.867,-5,5
+796,USA IL Cahokia St. Louis (TMY3).csv,TMY3,725314,Cahokia St. Louis,IL,USA,38.567,-90.15,-6,126
+797,USA CA Burbank-glendale-passadena Ap (TMY3).csv,TMY3,722880,Burbank-glendale-passadena Ap,CA,USA,34.2,-118.35,-8,226
+798,USA NV Nellis Afb (TMY3).csv,TMY3,723865,Nellis Afb,NV,USA,36.25,-115.033,-8,573
+799,USA KS Salina Municipal Ap (TMY3).csv,TMY3,724586,Salina Municipal Ap,KS,USA,38.817,-97.667,-6,385
+800,USA CA Travis Field Afb (TMY3).csv,TMY3,745160,Travis Field Afb,CA,USA,38.267,-121.933,-8,18
+801,USA RI Block Island State Arpt (TMY3).csv,TMY3,725058,Block Island State Arpt,RI,USA,41.167,-71.583,-5,34
+802,USA ID Soda Springs Tigert (TMY3).csv,TMY3,725868,Soda Springs Tigert,ID,USA,42.65,-111.583,-7,1780
+803,USA VA Virginia Tech Arpt (TMY3).csv,TMY3,724113,Virginia Tech Arpt,VA,USA,37.217,-80.417,-5,650
+804,USA AR Walnut Ridge (awos) (TMY3).csv,TMY3,723406,Walnut Ridge (awos),AR,USA,36.133,-90.917,-6,83
+805,USA WA Kelso Wb Ap (TMY3).csv,TMY3,727924,Kelso Wb Ap,WA,USA,46.133,-122.9,-8,5
+806,USA IA Carroll (TMY3).csv,TMY3,725468,Carroll,IA,USA,42.05,-94.783,-6,375
+807,USA NY New York J F Kennedy Int'l Ar (TMY3).csv,TMY3,744860,New York J F Kennedy Int'l Ar,NY,USA,40.65,-73.8,-5,5
+808,USA NC Elizabeth City Coast Guard Ai [nrel] (TMY3).csv,TMY3,746943,Elizabeth City Coast Guard Ai [nrel],NC,USA,36.3,-76.25,-5,4
+809,USA IA Spencer (TMY3).csv,TMY3,726500,Spencer,IA,USA,43.167,-95.15,-6,408
+810,USA AL Mobile Downtown Ap (TMY3).csv,TMY3,722235,Mobile Downtown Ap,AL,USA,30.633,-88.067,-6,8
+811,USA CO Trinidad Las Animas County Ap (TMY3).csv,TMY3,724645,Trinidad Las Animas County Ap,CO,USA,37.267,-104.333,-7,1751
+812,USA MN Rochester International Arpt (TMY3).csv,TMY3,726440,Rochester International Arpt,MN,USA,43.9,-92.5,-6,398
+813,USA IA Denison (TMY3).csv,TMY3,725477,Denison,IA,USA,41.983,-95.383,-6,388
+814,USA IN Fort Wayne Intl Ap (TMY3).csv,TMY3,725330,Fort Wayne Intl Ap,IN,USA,41.0,-85.2,-5,241
+815,USA MI Hancock Houghton Co Ap (TMY3).csv,TMY3,727440,Hancock Houghton Co Ap,MI,USA,47.167,-88.5,-5,327
+816,USA LA New Orleans Lakefront Ap (TMY3).csv,TMY3,722315,New Orleans Lakefront Ap,LA,USA,30.05,-90.033,-6,3
+817,USA FL Key West Nas (TMY3).csv,TMY3,722015,Key West Nas,FL,USA,24.583,-81.683,-5,7
+818,USA CA San Diego Lindbergh Field (TMY3).csv,TMY3,722900,San Diego Lindbergh Field,CA,USA,32.733,-117.167,-8,4
+819,USA NC Rocky Mount Wilson (TMY3).csv,TMY3,723068,Rocky Mount Wilson,NC,USA,35.85,-77.9,-5,50
+820,USA SD Brookings (awos) (TMY3).csv,TMY3,726515,Brookings (awos),SD,USA,44.3,-96.817,-6,502
+821,USA NM Tucumcari Faa Ap (TMY3).csv,TMY3,723676,Tucumcari Faa Ap,NM,USA,35.183,-103.6,-7,1235
+822,USA CA San Luis Co Rgnl (TMY3).csv,TMY3,722897,San Luis Co Rgnl,CA,USA,35.233,-120.633,-8,66
+823,USA HI Kaneohe Bay Mcas (TMY3).csv,TMY3,911760,Kaneohe Bay Mcas,HI,USA,21.45,-157.783,-10,3
+824,USA IA Sioux City Sioux Gateway Ap (TMY3).csv,TMY3,725570,Sioux City Sioux Gateway Ap,IA,USA,42.383,-96.383,-6,333
+825,USA HI Lanai (TMY3).csv,TMY3,911905,Lanai,HI,USA,20.783,-156.95,-10,409
+826,USA LA Baton Rouge Ryan Arpt (TMY3).csv,TMY3,722317,Baton Rouge Ryan Arpt,LA,USA,30.533,-91.15,-6,20
+827,USA AL Tuscaloosa Municipal Ap (TMY3).csv,TMY3,722286,Tuscaloosa Municipal Ap,AL,USA,33.217,-87.617,-6,51
+828,USA NE Fremont Muni Arpt (TMY3).csv,TMY3,725564,Fremont Muni Arpt,NE,USA,41.45,-96.517,-6,379
+829,USA CO Hayden Yampa (awos) (TMY3).csv,TMY3,725715,Hayden Yampa (awos),CO,USA,40.483,-107.217,-7,2012
+830,USA WA Olympia Airport (TMY3).csv,TMY3,727920,Olympia Airport,WA,USA,46.967,-122.9,-8,63
+831,USA NJ Belmar Asc (TMY3).csv,TMY3,724084,Belmar Asc,NJ,USA,40.183,-74.067,-5,26
+832,USA CA Palm Springs Thermal Ap (TMY3).csv,TMY3,747187,Palm Springs Thermal Ap,CA,USA,33.633,-116.167,-8,-34
+833,USA NM Deming Muni (TMY3).csv,TMY3,722725,Deming Muni,NM,USA,32.25,-107.717,-7,1348
+834,USA TX San Angelo Mathis Field (TMY3).csv,TMY3,722630,San Angelo Mathis Field,TX,USA,31.35,-100.5,-6,584
+835,USA IL Sterling Rockfalls (TMY3).csv,TMY3,725326,Sterling Rockfalls,IL,USA,41.75,-89.667,-6,197
+836,USA GA Moody Afb Valdosta (TMY3).csv,TMY3,747810,Moody Afb Valdosta,GA,USA,30.967,-83.2,-5,71
+837,USA CT Oxford (awos) (TMY3).csv,TMY3,725029,Oxford (awos),CT,USA,41.483,-73.133,-5,222
+838,USA TX Tyler Pounds Fld (TMY3).csv,TMY3,722448,Tyler Pounds Fld,TX,USA,32.35,-95.4,-6,166
+839,USA MS Keesler Afb (TMY3).csv,TMY3,747686,Keesler Afb,MS,USA,30.417,-88.917,-6,8
+840,USA WY Evanston Burns Fld (TMY3).csv,TMY3,725775,Evanston Burns Fld,WY,USA,41.283,-111.033,-7,2183
+841,USA CA San Diego Montgomer (TMY3).csv,TMY3,722903,San Diego Montgomer,CA,USA,32.817,-117.133,-8,129
+842,USA NC Jacksonville (awos) (TMY3).csv,TMY3,723069,Jacksonville (awos),NC,USA,34.833,-77.617,-5,29
+843,USA SC Florence Regional Ap (TMY3).csv,TMY3,723106,Florence Regional Ap,SC,USA,34.183,-79.733,-5,44
+844,USA ID Mountain Home Afb (TMY3).csv,TMY3,726815,Mountain Home Afb,ID,USA,43.05,-115.867,-7,912
+845,USA HI Kahului Airport (TMY3).csv,TMY3,911900,Kahului Airport,HI,USA,20.9,-156.433,-10,16
+846,USA WY Riverton Municipl Ap (TMY3).csv,TMY3,725765,Riverton Municipl Ap,WY,USA,43.05,-108.45,-7,1663
+847,USA TX Wichita Falls Municipal Arpt (TMY3).csv,TMY3,723510,Wichita Falls Municipal Arpt,TX,USA,33.983,-98.5,-6,314
+848,USA TX Houston D.w. Hooks (TMY3).csv,TMY3,722429,Houston D.w. Hooks,TX,USA,30.067,-95.55,-6,46
+849,USA FL Macdill Afb (TMY3).csv,TMY3,747880,Macdill Afb,FL,USA,27.85,-82.517,-5,8
+850,USA TN Chattanooga Lovell Field Ap (TMY3).csv,TMY3,723240,Chattanooga Lovell Field Ap,TN,USA,35.033,-85.2,-5,204
+851,USA MT Kalispell Glacier Pk Int'l Ar (TMY3).csv,TMY3,727790,Kalispell Glacier Pk Int'l Ar,MT,USA,48.317,-114.25,-7,906
+852,USA PA Washington (awos) (TMY3).csv,TMY3,725117,Washington (awos),PA,USA,40.133,-80.283,-5,361
+853,USA IN Grissom Arb (TMY3).csv,TMY3,725335,Grissom Arb,IN,USA,40.65,-86.15,-5,253
+854,USA FL Tampa International Ap (TMY3).csv,TMY3,722110,Tampa International Ap,FL,USA,27.967,-82.533,-5,6
+855,USA MO Kirksville Regional Ap (TMY3).csv,TMY3,724455,Kirksville Regional Ap,MO,USA,40.1,-92.55,-6,294
+856,USA FL Homestead Afb (TMY3).csv,TMY3,722026,Homestead Afb,FL,USA,25.483,-80.383,-5,5
+857,USA VA Farmville (TMY3).csv,TMY3,724017,Farmville,VA,USA,37.35,-78.433,-5,125
+858,USA NC New River Mcaf (TMY3).csv,TMY3,723096,New River Mcaf,NC,USA,34.7,-77.383,-5,5
+859,USA WA Bremerton National (TMY3).csv,TMY3,727928,Bremerton National,WA,USA,47.483,-122.75,-8,137
+860,USA IN Delaware Co Johnson (TMY3).csv,TMY3,725336,Delaware Co Johnson,IN,USA,40.233,-85.4,-5,293
+861,USA SC Sumter Shaw Afb (TMY3).csv,TMY3,747900,Sumter Shaw Afb,SC,USA,33.967,-80.467,-5,74
+862,USA FL Tyndall Afb (TMY3).csv,TMY3,747750,Tyndall Afb,FL,USA,30.067,-85.583,-6,7
+863,USA NY Massena Ap (TMY3).csv,TMY3,726223,Massena Ap,NY,USA,44.933,-74.85,-5,65
+864,USA AZ Tucson International Ap (TMY3).csv,TMY3,722740,Tucson International Ap,AZ,USA,32.133,-110.95,-7,777
+865,USA TX Mineral Wells Municipal Ap (TMY3).csv,TMY3,722597,Mineral Wells Municipal Ap,TX,USA,32.783,-98.067,-6,284
+866,USA NY Elmira Corning Regional Ap (TMY3).csv,TMY3,725156,Elmira Corning Regional Ap,NY,USA,42.167,-76.9,-5,291
+867,USA ME Naval Air Station (TMY3).csv,TMY3,743920,Naval Air Station,ME,USA,43.9,-69.933,-5,21
+868,USA NC Dare Co Rgnl (TMY3).csv,TMY3,723046,Dare Co Rgnl,NC,USA,35.917,-75.7,-5,4
+869,USA OR North Bend Muni Airport (TMY3).csv,TMY3,726917,North Bend Muni Airport,OR,USA,43.417,-124.25,-8,2
+870,USA KS Hutchinson Municipal Ap (TMY3).csv,TMY3,724506,Hutchinson Municipal Ap,KS,USA,38.067,-97.867,-6,463
+871,USA MN Pipestone (awos) (TMY3).csv,TMY3,726566,Pipestone (awos),MN,USA,43.983,-96.317,-6,529
+872,USA CO Aspen Pitkin Co Sar (TMY3).csv,TMY3,724676,Aspen Pitkin Co Sar,CO,USA,39.217,-106.867,-7,2444
+873,USA AL Anniston Metropolitan Ap (TMY3).csv,TMY3,722287,Anniston Metropolitan Ap,AL,USA,33.583,-85.85,-6,186
+874,USA TX Rockport Aransas Co (TMY3).csv,TMY3,722524,Rockport Aransas Co,TX,USA,28.083,-97.05,-6,8
+875,USA FL Orlando Sanford Airport (TMY3).csv,TMY3,722057,Orlando Sanford Airport,FL,USA,28.783,-81.25,-5,17
+876,USA LA Lake Charles Regional Arpt (TMY3).csv,TMY3,722400,Lake Charles Regional Arpt,LA,USA,30.117,-93.233,-6,5
+877,USA MN Thief River(awos) (TMY3).csv,TMY3,727555,Thief River(awos),MN,USA,48.067,-96.183,-6,340
+878,USA TX Alice Intl Ap (TMY3).csv,TMY3,722517,Alice Intl Ap,TX,USA,27.733,-98.033,-6,53
+879,USA AL Huntsville Intl Jones Field (TMY3).csv,TMY3,723230,Huntsville Intl Jones Field,AL,USA,34.65,-86.783,-6,190
+880,USA KS Topeka Forbes Field (TMY3).csv,TMY3,724565,Topeka Forbes Field,KS,USA,38.95,-95.667,-6,325
+881,USA MS Golden Tri(awos) (TMY3).csv,TMY3,723307,Golden Tri(awos),MS,USA,33.45,-88.583,-6,80
+882,USA OH Youngstown Regional Airport (TMY3).csv,TMY3,725250,Youngstown Regional Airport,OH,USA,41.25,-80.667,-5,360
+883,USA WA Tacoma Mcchord Afb (TMY3).csv,TMY3,742060,Tacoma Mcchord Afb,WA,USA,47.15,-122.483,-8,88
+884,USA NY Albany County Ap (TMY3).csv,TMY3,725180,Albany County Ap,NY,USA,42.75,-73.8,-5,84
+885,USA MN Winona Muni (awos) (TMY3).csv,TMY3,726588,Winona Muni (awos),MN,USA,44.083,-91.7,-6,200
+886,USA TX Corpus Christi Intl Arpt [ut] (TMY3).csv,TMY3,722510,Corpus Christi Intl Arpt [ut],TX,USA,27.88,-97.63,-6,6
+887,USA AZ Show Low Municipal (TMY3).csv,TMY3,723747,Show Low Municipal,AZ,USA,34.267,-110.0,-7,1954
+888,USA WA William R Fairchild (TMY3).csv,TMY3,727885,William R Fairchild,WA,USA,48.117,-123.5,-8,91
+889,USA UT Moab Canyonlands [uo] (TMY3).csv,TMY3,724776,Moab Canyonlands [uo],UT,USA,38.58,-109.54,-7,1000
+890,USA IA Clinton Muni (awos) (TMY3).csv,TMY3,725473,Clinton Muni (awos),IA,USA,41.833,-90.333,-6,216
+891,USA IN Evansville Regional Ap (TMY3).csv,TMY3,724320,Evansville Regional Ap,IN,USA,38.05,-87.533,-6,116
+892,USA TX Houston Ellington Afb [clear Lake - Ut] (TMY3).csv,TMY3,722436,Houston Ellington Afb [clear Lake - Ut],TX,USA,29.57,-95.09,-6,6
+893,USA VA Manassas Muni(awos) (TMY3).csv,TMY3,724036,Manassas Muni(awos),VA,USA,38.717,-77.517,-5,59
+894,USA NM Sierra Blanca Rgnl (TMY3).csv,TMY3,722683,Sierra Blanca Rgnl,NM,USA,33.467,-105.533,-7,2078
+895,USA MN Eveleth Muni (awos) (TMY3).csv,TMY3,727474,Eveleth Muni (awos),MN,USA,47.4,-92.5,-6,421
+896,USA FL Jacksonville Intl Arpt (TMY3).csv,TMY3,722060,Jacksonville Intl Arpt,FL,USA,30.5,-81.7,-5,8
+897,USA NM Clovis Muni  (awos) (TMY3).csv,TMY3,722689,Clovis Muni  (awos),NM,USA,34.433,-103.083,-7,1284
+898,USA WY Gillette Gillette-c (TMY3).csv,TMY3,726650,Gillette Gillette-c,WY,USA,44.35,-105.533,-7,1230
+899,USA KY Somerset(awos) (TMY3).csv,TMY3,724354,Somerset(awos),KY,USA,38.0,-84.6,-5,283
+900,USA MA North Adams (TMY3).csv,TMY3,725075,North Adams,MA,USA,42.7,-73.167,-5,201
+901,USA KS Concordia Blosser Muni Ap (TMY3).csv,TMY3,724580,Concordia Blosser Muni Ap,KS,USA,39.55,-97.65,-6,448
+902,USA WI Janesville Rock Co. (TMY3).csv,TMY3,726415,Janesville Rock Co.,WI,USA,42.617,-89.033,-6,246
+903,USA IA Sheldon (TMY3).csv,TMY3,725495,Sheldon,IA,USA,43.217,-95.833,-6,432
+904,USA IA Fort Dodge (awos) (TMY3).csv,TMY3,725490,Fort Dodge (awos),IA,USA,42.55,-94.183,-6,355
+905,USA CA Imperial (TMY3).csv,TMY3,747185,Imperial,CA,USA,32.833,-115.583,-8,-17
+906,USA IA Storm Lake (TMY3).csv,TMY3,725496,Storm Lake,IA,USA,42.6,-95.233,-6,454
+907,USA NY New York Central Prk Obs Belv (TMY3).csv,TMY3,725033,New York Central Prk Obs Belv,NY,USA,40.783,-73.967,-5,40
+908,USA TX Galveston Scholes (TMY3).csv,TMY3,722420,Galveston Scholes,TX,USA,29.3,-94.8,-6,16
+909,USA KY Cincinnati Northern Ky Ap (TMY3).csv,TMY3,724210,Cincinnati Northern Ky Ap,KY,USA,39.05,-84.667,-5,265
+910,USA CA Modesto City-county Ap (TMY3).csv,TMY3,724926,Modesto City-county Ap,CA,USA,37.633,-120.95,-8,30
+911,USA CA Chula Vista Brown Field Naas (TMY3).csv,TMY3,722904,Chula Vista Brown Field Naas,CA,USA,32.583,-116.983,-8,159
+912,USA OH Mansfield Lahm Municipal Arpt (TMY3).csv,TMY3,725246,Mansfield Lahm Municipal Arpt,OH,USA,40.817,-82.517,-5,395
+913,USA GA Marietta Dobbins Afb (TMY3).csv,TMY3,722270,Marietta Dobbins Afb,GA,USA,33.917,-84.517,-5,330
+914,USA WA Bellingham Intl Ap (TMY3).csv,TMY3,727976,Bellingham Intl Ap,WA,USA,48.8,-122.533,-8,45
+915,USA WA Seattle Seattle-tacoma Intl A (TMY3).csv,TMY3,727930,Seattle Seattle-tacoma Intl A,WA,USA,47.467,-122.317,-8,122
+916,USA NY Utica Oneida County Ap (TMY3).csv,TMY3,725197,Utica Oneida County Ap,NY,USA,43.15,-75.383,-5,217
+917,USA OK Oklahoma City Wiley (TMY3).csv,TMY3,723544,Oklahoma City Wiley,OK,USA,35.533,-97.65,-6,396
+918,USA TX Draughon Miller Cen (TMY3).csv,TMY3,722577,Draughon Miller Cen,TX,USA,31.15,-97.4,-6,213
+919,USA OR La Grande Muni Ap (TMY3).csv,TMY3,726884,La Grande Muni Ap,OR,USA,45.283,-118.0,-8,827
+920,USA ND Bismarck Municipal Arpt [isis] (TMY3).csv,TMY3,727640,Bismarck Municipal Arpt [isis],ND,USA,46.77,-100.77,-7,502
+921,USA CA San Diego North Island Nas (TMY3).csv,TMY3,722906,San Diego North Island Nas,CA,USA,32.7,-117.2,-8,15
+922,USA IA Dubuque Regional Ap (TMY3).csv,TMY3,725470,Dubuque Regional Ap,IA,USA,42.4,-90.7,-6,322
+923,USA TX Abilene Regional Ap [ut] (TMY3).csv,TMY3,722660,Abilene Regional Ap [ut],TX,USA,32.47,-99.71,-6,530
+924,USA VA Hot Springs Ingalls (TMY3).csv,TMY3,724115,Hot Springs Ingalls,VA,USA,37.95,-79.833,-5,1156
+925,USA WV Elkins Elkins-randolph Co Arp (TMY3).csv,TMY3,724170,Elkins Elkins-randolph Co Arp,WV,USA,38.883,-79.85,-5,594
+926,USA VI Charlotte Amalie Harry S Trum (TMY3).csv,TMY3,785430,Charlotte Amalie Harry S Trum,VI,USA,18.35,-64.967,-4,6
+927,USA TX Marfa Ap (TMY3).csv,TMY3,722640,Marfa Ap,TX,USA,30.367,-104.017,-6,1473
+928,USA CO Durango La Plata Co (TMY3).csv,TMY3,724625,Durango La Plata Co,CO,USA,37.15,-107.75,-7,2038
+929,USA PA Allentown Lehigh Valley Intl (TMY3).csv,TMY3,725170,Allentown Lehigh Valley Intl,PA,USA,40.65,-75.45,-5,119
+930,USA MI Sault Ste Marie Sanderson Fie (TMY3).csv,TMY3,727340,Sault Ste Marie Sanderson Fie,MI,USA,46.467,-84.35,-5,219
+931,USA MN Aitkin Ndb(awos) (TMY3).csv,TMY3,727504,Aitkin Ndb(awos),MN,USA,46.55,-93.683,-6,367
+932,USA FL Orlando Intl Arpt (TMY3).csv,TMY3,722050,Orlando Intl Arpt,FL,USA,28.433,-81.333,-5,29
+933,USA TX Wink Winkler County Ap (TMY3).csv,TMY3,722656,Wink Winkler County Ap,TX,USA,31.783,-103.2,-6,856
+934,USA AZ Yuma Intl Arpt (TMY3).csv,TMY3,722800,Yuma Intl Arpt,AZ,USA,32.667,-114.6,-7,63
+935,USA ND Grand Forks Af (TMY3).csv,TMY3,727575,Grand Forks Af,ND,USA,47.967,-97.4,-6,276
+936,USA CA San Jose Intl Ap (TMY3).csv,TMY3,724945,San Jose Intl Ap,CA,USA,37.367,-121.933,-8,16
+937,USA NY Fort Drum Wheeler-s (TMY3).csv,TMY3,743700,Fort Drum Wheeler-s,NY,USA,44.05,-75.717,-5,211
+938,USA LA Fort Polk Aaf (TMY3).csv,TMY3,722390,Fort Polk Aaf,LA,USA,31.05,-93.183,-6,102
+939,USA KS Topeka Municipal Ap (TMY3).csv,TMY3,724560,Topeka Municipal Ap,KS,USA,39.067,-95.633,-6,269
