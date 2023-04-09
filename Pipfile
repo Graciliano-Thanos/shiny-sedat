@@ -7,6 +7,9 @@ name = "pypi"
 pandas = "*"
 shiny = "*"
 pathlib = "*"
+htmltools = "*"
+shinywidgets = "*"
+ipyleaflet = "*"
 
 [dev-packages]
 

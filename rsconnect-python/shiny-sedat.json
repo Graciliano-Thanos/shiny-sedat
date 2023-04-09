@@ -1,0 +1,11 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "C:\\Users\\mario\\shiny-sedat",
+        "app_url": "https://graciliano-thanos.shinyapps.io/sedat-view-labmems11/",
+        "app_id": 8801024,
+        "app_guid": null,
+        "title": "sedat-view-labmems11",
+        "app_mode": "python-shiny"
+    }
+}
