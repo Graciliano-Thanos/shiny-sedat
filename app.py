@@ -6,20 +6,23 @@ import ipyleaflet as L
 from read_db import find_db
 
 app_ui = ui.page_fluid(
-    ui.div(
-    ui.input_select("db","Choose a database:",["Desalplants","global_desal"]),
     
+    ui.div(
+    ui.input_select("db","Choose a database:",["USA","Global"]),
     # Filters for both databases
     ui.input_selectize("filter_1", "Filter 1", [],multiple=True),
     ui.input_selectize("filter_2", "Filter 2", [],multiple=True),
     ui.input_selectize("filter_3", "Filter 3", [],multiple=True),
     ui.input_selectize("filter_4", "Filter 4", [],multiple=True),
     ui.input_selectize("filter_5", "Filter 5", [],multiple=True),
+    ui.output_table("table"),
     style=css(
-            display="flex", justify_content="center", align_items="center", gap="2rem")
+            display="flex", justify_content="left", align_items="center", gap="2rem"
+        ),
     ),
+    
     ui.div(
-        ui.input_slider("zoom", "Map zoom level", value=12, min=1, max=18),
+        ui.input_slider("zoom", "Map zoom level", value=3, min=1, max=18),
         ui.output_ui("map_bounds"),
         style=css(
             display="flex", justify_content="center", align_items="center", gap="2rem"
@@ -29,23 +32,8 @@ app_ui = ui.page_fluid(
 )
 
 def server(input, output, session):
-    map = L.Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True)
-    # Add a distance scale
-    map.add_control(L.leaflet.ScaleControl(position="bottomleft"))
-    register_widget("map", map)
-
-    # When the slider changes, update the map's zoom attribute (2)
-    @reactive.Effect
-    def _():
-        map.zoom = input.zoom()
-
-    # When zooming directly on the map, update the slider's value (2 and 3)
-    @reactive.Effect
-    def _():
-        ui.update_slider("zoom", value=reactive_read(map, "zoom"))
-
     @output
-    @render.ui
+    @render.table
     def table():
         db, filters = find_db(input.db())
 
@@ -68,6 +56,21 @@ def server(input, output, session):
         sub_db = db[indx_cou & indx_loc & indx_cap & indx_tec & indx_pla]
 
         return sub_db.to_html()
+    
+    map = L.Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True)
+    # Add a distance scale
+    map.add_control(L.leaflet.ScaleControl(position="bottomleft"))
+    register_widget("map", map)
+
+    # When the slider changes, update the map's zoom attribute (2)
+    @reactive.Effect
+    def _():
+        map.zoom = input.zoom()
+
+    # When zooming directly on the map, update the slider's value (2 and 3)
+    @reactive.Effect
+    def _():
+        ui.update_slider("zoom", value=reactive_read(map, "zoom"))
 
 app = App(app_ui, server)
 
