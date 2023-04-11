@@ -1,7 +1,7 @@
-from htmltools import css
+from htmltools import css, HTML
 from shiny import App, render, ui, reactive
 from shinywidgets import output_widget, reactive_read, register_widget
-import ipyleaflet as L
+from ipyleaflet import Map, Marker, Popup,leaflet
 
 from read_db import find_db
 
@@ -32,9 +32,24 @@ app_ui = ui.page_fluid(
 )
 
 def server(input, output, session):
+    
+    map = Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True)
+    # Add a distance scale
+    map.add_control(leaflet.ScaleControl(position="bottomleft"))
+    register_widget("map", map)
+
+    # When the slider changes, update the map's zoom attribute (2)
+    @reactive.Effect
+    def _():
+        map.zoom = input.zoom()
+
+    # When zooming directly on the map, update the slider's value (2 and 3)
+    @reactive.Effect
+    def _():
+        ui.update_slider("zoom", value=reactive_read(map, "zoom"))
+
     @output
-    @render.table
-    def table():
+    def widget():
         db, filters = find_db(input.db())
 
         #UPDATE FILTERS BASED ON DB
@@ -47,30 +62,18 @@ def server(input, output, session):
 
         # SET filters
 
-        indx_cou = db[filters[0]].isin(input.filter1())
-        indx_loc = db[filters[1]].isin(input.filter2())
-        indx_cap = db[filters[2]].isin(input.filter3())
-        indx_tec = db[filters[3]].isin(input.filter4())
-        indx_pla = db[filters[-1]].isin(input.filter5())
-        
-        sub_db = db[indx_cou & indx_loc & indx_cap & indx_tec & indx_pla]
+        for sub_filter in filters:
+            db = db[db[sub_filter].isin(input.filter1())]
 
-        return sub_db.to_html()
+        for dessal in db:
+            marker = Marker(location=(dessal['latitude'], dessal['longitude']))
+            #message = HTML()
+            #message.value = "Description of Dessal:"
+            #message.description = info_from_database()   -> to be made
+            map.add_layer(marker)
+            #marker.popup = message
+        return db.to_html()
     
-    map = L.Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True)
-    # Add a distance scale
-    map.add_control(L.leaflet.ScaleControl(position="bottomleft"))
-    register_widget("map", map)
-
-    # When the slider changes, update the map's zoom attribute (2)
-    @reactive.Effect
-    def _():
-        map.zoom = input.zoom()
-
-    # When zooming directly on the map, update the slider's value (2 and 3)
-    @reactive.Effect
-    def _():
-        ui.update_slider("zoom", value=reactive_read(map, "zoom"))
 
 app = App(app_ui, server)
 
