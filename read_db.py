@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 def find_db(path:str):
     infile = Path(__file__).parent / f"{path}.csv"
@@ -11,3 +12,11 @@ def find_db(path:str):
 
 def info_from_db(*args):
     return "text teste."
+
+
+def plot_location(db:pd.DataFrame,db_type:str):
+    return plt.hist(db.value_counts("Country"if db_type == "Global" else "Location"),label="Location")
+
+
+def plot_capacity(db:pd.DataFrame,db_type:str):
+    return plt.hist(db.value_counts("Capacity" if db_type=="Global" else "Capacity__"),label="Capacity")

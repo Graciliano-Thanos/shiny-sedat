@@ -3,7 +3,7 @@ from shiny import App, render, ui, reactive
 from shinywidgets import output_widget, reactive_read, register_widget
 from ipyleaflet import Map, Marker, Popup,leaflet
 
-from read_db import find_db,info_from_db
+from read_db import find_db,info_from_db,plot_location,plot_capacity
 
 app_ui = ui.page_fluid(
     
@@ -18,10 +18,18 @@ app_ui = ui.page_fluid(
     ui.input_action_button("run","Run Filtered Database")
     ),
     ui.panel_main(
-    ui.output_ui("map_bounds"),
+    ui.div(ui.output_ui("map_bounds"),
     output_widget("map")
-    )
     ),
+    ui.div(ui.output_plot("cap_graph"),
+           ui.output_plot("location_graph"),
+           style=css(
+            display="flex", justify_content="bottom", align_items="center")
+        )
+    ,
+    style=css(
+            display="flex-column", align_items="flex-start", gap="2rem"))
+),
 )
 
 def server(input, output, session):
@@ -60,23 +68,33 @@ def server(input, output, session):
         filter_table = [input.filter_1(),input.filter_2(),input.filter_3()]
 
         for i in range(len(filters)):
-            db = db[db[filters[i]] == filter_table[i][0]]
+            if filter_table[i] != ():
+                db = db[db[filters[i]] == filter_table[i][0]]
 
-        print(db)
-
-        print("-----------------------------------")
         for ind in db.index:
-           #print(db[ind])
            marker = Marker(location=(db['Latitude'][ind], db['Longitude'][[ind]]),draggable=False)
-           #message = HTML()
-           #message.value = "Description of Dessal:"
-           #message.description = info_from_db("dessal")
+           message = Popup()
+           message.value = "Description of Dessal:"
+           message.description = info_from_db("dessal")
            map.add_layer(marker)
-           #marker.popup = message
+           marker.popup = message
 
         return db
-
     
+    @output
+    @render.plot
+    @reactive.event(input.run)
+    def location_graph():
+        db,filters = find_db(input.db())
+        plot_location(db,input.db())
+
+    @output
+    @render.plot
+    @reactive.event(input.run)
+    def cap_graph():
+        db,filters = find_db(input.db())
+        plot_capacity(db,input.db())
+
 
 app = App(app_ui, server)
 

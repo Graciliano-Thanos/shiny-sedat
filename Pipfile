@@ -10,6 +10,8 @@ pathlib = "*"
 htmltools = "*"
 shinywidgets = "*"
 ipyleaflet = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
