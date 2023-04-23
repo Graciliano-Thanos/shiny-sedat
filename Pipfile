@@ -12,6 +12,7 @@ shinywidgets = "*"
 ipyleaflet = "*"
 matplotlib = "*"
 seaborn = "*"
+ipywidgets = "*"
 
 [dev-packages]
 
