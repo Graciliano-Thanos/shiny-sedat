@@ -14,9 +14,13 @@ def info_from_db(*args):
     return "text teste."
 
 
-def plot_location(db:pd.DataFrame,db_type:str):
-    return plt.hist(db.value_counts("Country"if db_type == "Global" else "Location"),label="Location")
+def give_loc(db:pd.DataFrame,db_type:str):
+    return db["Location"].value_counts()
+
 
 
 def plot_capacity(db:pd.DataFrame,db_type:str):
+    
+    cap = db["Capacity"if db_type=="Global" else "Capacity__"]
+
     return plt.hist(db.value_counts("Capacity" if db_type=="Global" else "Capacity__"),label="Capacity")

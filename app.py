@@ -4,7 +4,7 @@ from shinywidgets import output_widget, reactive_read, register_widget
 from ipyleaflet import Map, Marker, Popup,leaflet
 from ipywidgets import HTML
 
-from read_db import find_db,info_from_db,plot_location,plot_capacity
+from read_db import find_db,info_from_db,give_loc,plot_capacity
 
 app_ui = ui.page_fluid(
     
@@ -16,14 +16,13 @@ app_ui = ui.page_fluid(
     ui.input_selectize("filter_2", "Select Technology", [],multiple=False),
     ui.input_selectize("filter_3", "Select Plant Type", [],multiple=False),
     ui.input_slider("zoom", "Map zoom level", value=3, min=1, max=18),
-    ui.input_action_button("run","Run Filtered Database")
-    ),
+    ui.input_action_button("run","Run Filtered Database")),
     ui.panel_main(
     ui.div(ui.output_ui("map_bounds"),
     output_widget("map")
     ),
     ui.div(ui.output_plot("cap_graph"),
-           ui.output_plot("location_graph"),
+           ui.output_table("location_table"),
            style=css(
             display="flex", justify_content="bottom", align_items="center")
         )
@@ -83,26 +82,28 @@ def server(input, output, session):
 
         for ind in db.index:
            marker = Marker(location=(db['Latitude'][ind], db['Longitude'][[ind]]),draggable=False)           
-           status = HTML()
+           #status = HTML()
 
            map.add_layer(marker)
            
-           status.value = "Description of Dessal:"
+           #status.value = "Description of Dessal:"
            #marker.popup = Popup(child=status)
            marker_db.append(marker)
+
+        output.loading = "Done!"
 
     @output
     @render.plot
     @reactive.event(input.run)
-    def location_graph():
-        db,filters = find_db(input.db())
-        plot_location(db,input.db())
+    def location_table():
+        db,filters = create_filtered_db()
+        return HTML(give_loc(db,input.db()))
 
     @output
     @render.plot
     @reactive.event(input.run)
     def cap_graph():
-        db,filters = find_db(input.db())
+        db,filters = create_filtered_db()
         plot_capacity(db,input.db())
 
 
