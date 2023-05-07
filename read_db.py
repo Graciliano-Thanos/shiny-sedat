@@ -14,8 +14,8 @@ def info_from_db(*args):
     return "text teste."
 
 
-def give_loc(db:pd.DataFrame,db_type:str):
-    return db["Location"].value_counts()
+def give_loc(db:pd.DataFrame):
+    return db["Location"].value_counts().to_frame()
 
 
 

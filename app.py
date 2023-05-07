@@ -10,32 +10,49 @@ app_ui = ui.page_fluid(
     
     ui.layout_sidebar(
         ui.panel_sidebar(
-    ui.input_select("db","Choose a database:",["USA","Global"]),
+            ui.input_select("db","Choose a database:",["USA","Global"]),
     # Filters for both databases
-    ui.input_selectize("filter_1", "Select Size", [],multiple=False),
-    ui.input_selectize("filter_2", "Select Technology", [],multiple=False),
-    ui.input_selectize("filter_3", "Select Plant Type", [],multiple=False),
-    ui.input_slider("zoom", "Map zoom level", value=3, min=1, max=18),
-    ui.input_action_button("run","Run Filtered Database")),
-    ui.panel_main(
-    ui.div(ui.output_ui("map_bounds"),
-    output_widget("map")
-    ),
-    ui.div(ui.output_plot("cap_graph"),
-           ui.output_table("location_table"),
-           style=css(
-            display="flex", justify_content="bottom", align_items="center")
-        )
+            ui.input_selectize("filter_1", "Select Size", [],multiple=False),
+            ui.input_selectize("filter_2", "Select Technology", [],multiple=False),
+            ui.input_selectize("filter_3", "Select Plant Type", [],multiple=False),
+            ui.input_slider("zoom", "Map zoom level", value=3, min=1, max=18),
+            ui.div(
+                ui.input_action_button("run","Run Filtered Database"),
+                ui.output_text("load","Test"),
+                    style=css(
+                        display = "flex", justify_content="space-around")
+                    )
+                ),
+        ui.panel_main(
+            ui.div(
+                ui.output_ui("map_bounds"),
+                output_widget("map")
+                ),
+            ui.div(
+                ui.navset_tab_card(
+                ui.nav("Graph", ui.output_plot("cap_graph")),
+                ui.nav("Table", ui.output_table("location_table")),
+                ),
+                style=css(
+                    display="flex", justify_content="center", align_items="center")
+                )
     ,
-    style=css(
-            display="flex-column", align_items="flex-start", gap="2rem"))
-),
+            style=css(
+                display="flex-column", align_items="flex-start", gap="2rem")
+            )
+    ),
 )
 
 def server(input, output, session):
 
     #Utility parameters
     marker_db = []
+    status = reactive.Value(0)
+
+    #Map Widget
+    map = Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True,world_copy_jump=True)
+    map.add_control(leaflet.ScaleControl(position="bottomleft"))
+    register_widget("map", map)
 
     def create_filtered_db():
         db, filters = find_db(input.db())
@@ -46,11 +63,6 @@ def server(input, output, session):
             db = db[db[filters[i]] == filter_table[i]]
         return db,filters
     
-    #Map Widget
-    map = Map(center=(51.476852, -0.000500), zoom=12, scroll_wheel_zoom=True,world_copy_jump=True)
-    map.add_control(leaflet.ScaleControl(position="bottomleft"))
-    register_widget("map", map)
-
     @reactive.Effect
     def _():
         map.zoom = input.zoom()
@@ -72,6 +84,7 @@ def server(input, output, session):
     @reactive.Effect
     @reactive.event(input.run)
     def _():
+        status.set(1)
         db,filters = create_filtered_db()
         
         if marker_db != []:
@@ -89,15 +102,23 @@ def server(input, output, session):
            #status.value = "Description of Dessal:"
            #marker.popup = Popup(child=status)
            marker_db.append(marker)
-
-        output.loading = "Done!"
+        
+        status.set(2)
 
     @output
-    @render.plot
+    @render.text
+    def load():
+        if status.get() == 1:
+            return "In progress"
+        elif status.get()==2:
+            return "Done"
+
+    @output
+    @render.table
     @reactive.event(input.run)
     def location_table():
         db,filters = create_filtered_db()
-        return HTML(give_loc(db,input.db()))
+        return give_loc(db).style
 
     @output
     @render.plot
