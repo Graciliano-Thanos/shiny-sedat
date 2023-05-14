@@ -3,8 +3,10 @@ from shiny import App, render, ui, reactive
 from shinywidgets import output_widget, reactive_read, register_widget
 from ipyleaflet import Map, Marker, Popup,leaflet
 from ipywidgets import HTML
+import pandas as pd
 
 from read_db import find_db,info_from_db,give_loc,plot_capacity
+from md import md
 
 app_ui = ui.page_fluid(
     
@@ -30,7 +32,9 @@ app_ui = ui.page_fluid(
                 ),
             ui.div(
                 ui.navset_tab_card(
-                ui.nav("Graph", ui.output_plot("cap_graph")),
+                ui.nav("Graph", ui.output_plot("cap_graph"),
+                                ui.output_plot("md_graph"),
+                                ui.output_plot("md_table")),
                 ui.nav("Table", ui.output_table("location_table")),
                 ),
                 style=css(
@@ -119,6 +123,21 @@ def server(input, output, session):
     def location_table():
         db,filters = create_filtered_db()
         return give_loc(db).style
+    
+    @output
+    @render.plot
+    @reactive.event(input.run)
+    def md_table():
+        dic = {"Module_Id":[],"Module Capacity":[]}
+        db,filters = create_filtered_db()
+        text = "Capacity"if input.db()=="Global" else "Capacity__"
+        therm = "Thermal de" if input.db()=="Global" else "Thermal_de"
+        for i in range(len(db)):
+            if "MED" in db.loc[i,"Technology"]:
+                dic["Module_Id"].append(i)
+                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],"",db.loc[i,therm]))
+        df = pd.DataFrame(dic)
+        return df.style
 
     @output
     @render.plot
@@ -127,6 +146,21 @@ def server(input, output, session):
         db,filters = create_filtered_db()
         plot_capacity(db,input.db())
 
+    @output
+    @render.plot
+    @reactive.event(input.run)
+    def md_graph():
+        dic = {"Module_Id":[],"Module Capacity":[]}
+        db,filters = create_filtered_db()
+        text = "Capacity"if input.db()=="Global" else "Capacity__"
+        therm = "Thermal de" if input.db()=="Global" else "Thermal_de"
+        for i in range(len(db)):
+            if "MED" in db.loc[i,"Technology"]:
+                dic["Module_Id"].append(i)
+                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],"",db.loc[i,therm]))
+        
+        df = pd.DataFrame(dic)
+        return df.hist()
 
 app = App(app_ui, server)
 
