@@ -5,7 +5,7 @@ from ipyleaflet import Map, Marker, Popup,leaflet
 from ipywidgets import HTML
 import pandas as pd
 
-from read_db import find_db,info_from_db,give_loc,plot_capacity
+from read_db import find_db,info_from_db,give_loc,plot_capacity, cond_correction
 from md import md
 
 app_ui = ui.page_fluid(
@@ -18,6 +18,13 @@ app_ui = ui.page_fluid(
             ui.input_selectize("filter_2", "Select Technology", [],multiple=False),
             ui.input_selectize("filter_3", "Select Plant Type", [],multiple=False),
             ui.input_slider("zoom", "Map zoom level", value=3, min=1, max=18),
+            ui.div(
+                ui.input_selectize("tx2", "Select tx2", ["2","5","7","10"],multiple=False),
+                ui.input_selectize("abc", "Select abc", ["5","10","20","30"],multiple=False),
+                ui.input_selectize("SECe", "Select SECe", [0.5,0.7,0.8,0.9],multiple=False),
+                ui.input_selectize("TEI_r", "Select TEI", ["60","70","80"],multiple=False),
+                ui.input_selectize("TCI_r", "Select TCI", ["25","30","35"],multiple=False)
+                ),
             ui.div(
                 ui.input_action_button("run","Run Filtered Database"),
                 ui.output_text("load","Test"),
@@ -157,7 +164,10 @@ def server(input, output, session):
         for i in range(len(db)):
             if "MED" in db.loc[i,"Technology"]:
                 dic["Module_Id"].append(i)
-                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],"",db.loc[i,therm]))
+                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],
+                                                     cond_correction(db.loc[i,"Feedwater"]),db.loc[i,therm],
+                                                     tx2=input.tx2(),abc=input.abc(),TEI_r=input.TEI_r(),
+                                                     TCI_r = input.TCI_r(), SECe = input.SECe()))
         
         df = pd.DataFrame(dic)
         return df.hist()

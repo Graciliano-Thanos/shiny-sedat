@@ -17,7 +17,12 @@ def info_from_db(*args):
 def give_loc(db:pd.DataFrame):
     return db["Location"].value_counts().to_frame()
 
-
+def cond_correction(Cc):
+    if "Wastewater" in Cc or "River" in Cc: return 15
+    elif "50000ppm" in Cc: return 50
+    elif "20000ppm" in Cc: return 35
+    elif "Sea" in Cc: return 35
+    return 15
 
 def plot_capacity(db:pd.DataFrame,db_type:str):
     

@@ -152,7 +152,7 @@ class MD():
 
 ### VER DNV
   def Cte(self,Cc, PTE, Cap2, TEI_r, TCI_r):
-    saidacte = self.Mp(Cap2) #* (STEC_AS7_allM(Cc,TEI_r,TCI_r) / 1000)
+    saidacte = self.Mp(Cap2) * (STEC_AS7_allM(Cc,TEI_r,TCI_r) / 1000)
     
     if "TVC" in PTE: return saidacte * 0.00001
     elif "MVC" in PTE: return saidacte* 0.035
@@ -202,6 +202,11 @@ class MD():
     return self.Cte(Cc, PTE, Cap2, TEI_r,TCI_r) + (self.Taom(Cap2, SECe, Rede))/(float(Cap2) * self.f * 365)
 
   def TWC(self,Cap2, Remote, Cc, PTE, Rede="", tx2=1, abc="5", TEI_r=1,TCI_r=1,SECe=1):
+    if Cap2 < 50: Cap2 = 10
+    elif Cap2 <500: Cap2 = 100
+    else: Cap2 = 1000
+
+    
     saidatwc = (self.Anomc(Cap2, Cc, SECe, PTE, Rede, TEI_r,TCI_r) + self.Nacc(Cap2, PTE, tx2, abc, Remote))
     return saidatwc
   
