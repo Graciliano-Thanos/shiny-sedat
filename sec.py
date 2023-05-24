@@ -11,40 +11,40 @@ def s(S):
 
 
 def rho_w(Tf):
-  return a[1] + a[2] * Tf + a[3] * Tf^2 + a[4] * Tf^3 + a[5] * Tf^4
+  return a[1] + a[2] * Tf + a[3] * Tf**2 + a[4] * Tf**3 + a[5] * Tf**4
 
 def D_rho(Tf, S):
-  return b[1] * s(S) + b[2] * s(S) * Tf + b[3] * s(S) * Tf^2 + b[4] * s(S) * Tf^3 + b[5] * (s(S))^2 * Tf^2
+  return b[1] * s(S) + b[2] * s(S) * Tf + b[3] * s(S) * Tf**2 + b[4] * s(S) * Tf**3 + b[5] * (s(S))**2 * Tf**2
 
 def rho_sw_sharq(Tf, S):
   return rho_w(Tf) + D_rho(Tf, S)
 
 def kT(Tf, S, P):
-  saidakT=c[1] + c[2]*Tf + c[3]*Tf^2 + c[4]*Tf^3 + c[5]*Tf^4 + c[6]*Tf^5 + P*(c[7] + c[8]*Tf + c[9]*Tf^3) + S*(d[1] + d[2]*Tf + d[3]*Tf^2 + d[4]*P)
+  saidakT=c[1] + c[2]*Tf + c[3]*Tf**2 + c[4]*Tf**3 + c[5]*Tf**4 + c[6]*Tf**5 + P*(c[7] + c[8]*Tf + c[9]*Tf**3) + S*(d[1] + d[2]*Tf + d[3]*Tf**2 + d[4]*P)
   return(saidakT)
 
 def F_P(Tf, S, P):
-  saidafp=exp((P-P0) * (c[1] + c[2]*Tf + c[3]*Tf^2 + c[4]*Tf^3 + c[5]*Tf^4 + c[6]*Tf^5 + S*(d[1] + d[2]*Tf + d[3]*Tf^2 )) + 0.5* (P^2 - P0^2) * (c[7] + c[8]*Tf + c[9]*Tf^3 + d[4]*S))
+  saidafp=exp((P-P0) * (c[1] + c[2]*Tf + c[3]*Tf**2 + c[4]*Tf**3 + c[5]*Tf**4 + c[6]*Tf**5 + S*(d[1] + d[2]*Tf + d[3]*Tf**2 )) + 0.5* (P**2 - P0**2) * (c[7] + c[8]*Tf + c[9]*Tf**3 + d[4]*S))
   return(saidafp)
 
 def SW_Density(Tf, S, P):
   return rho_sw_sharq(Tf, S) * F_P(Tf, S, P)
 
 def A(S):
-  saidaA=5.328 - 9.76E-02 * S + 4.04E-04*S^2
+  saidaA=5.328 - 9.76E-02 * S + 4.04E-04*S**2
   return(saidaA)
 
 
 def B(S):
-  saidaB=-6.913E-03 + 7.351E-04 *S - 3.15E-06*S^2
+  saidaB=-6.913E-03 + 7.351E-04 *S - 3.15E-06*S**2
   return(saidaB)
 
 def C(S):
-  saidaC=9.6E-06 -1.927E-06*S + 8.23E-09*S^2
+  saidaC=9.6E-06 -1.927E-06*S + 8.23E-09*S**2
   return(saidaC)
 
 def D(S):
-  saidaD=2.5E-09 +1.666E-09*S - 7.125E-12*S^2
+  saidaD=2.5E-09 +1.666E-09*S - 7.125E-12*S**2
   return(saidaD)
 
 c1 = [0,-3.1118, 0.0157, 5.1014E-05, -1.0302E-06, 0.0107, -3.9716E-05, 3.2088E-08, 1.0119E-09]
@@ -54,11 +54,11 @@ def T68(Tf):
   return(saidaT68)
 
 def cp_sw_P0(Tf, S):
-  saidacpsw=1000 * (A(S) + B(S)*Tf + C(S)*(Tf)^2 + D(S)*(Tf)^3)
+  saidacpsw=1000 * (A(S) + B(S)*Tf + C(S)*(Tf)**2 + D(S)*(Tf)**3)
   return(saidacpsw)
 
 def cp_sw_P(Tf, S, P):
-  saidacpswp=(P-P0) * ((c1[1] + c1[2]*Tf + c1[3]*Tf^2 + c1[4]*Tf^3) + S * (c1[5] + c1[6]*Tf + c1[7]*Tf^2 + c1[8]*Tf^3))
+  saidacpswp=(P-P0) * ((c1[1] + c1[2]*Tf + c1[3]*Tf**2 + c1[4]*Tf**3) + S * (c1[5] + c1[6]*Tf + c1[7]*Tf**2 + c1[8]*Tf**3))
   return(saidacpswp)
 
 def SW_SpcHeat(Tf, P, S):
@@ -68,7 +68,7 @@ def SW_SpcHeat(Tf, P, S):
 
 a1 = [0 , 2.5008991412E+06, -2.3691806479E+03, 2.6776439436E-01, -8.1027544602E-03, -2.0799346624E-05]
 def hfg_w(Tf):
-  saidahfgw=a1[1] + a1[2]*Tf + a1[3]*Tf^2 + a1[4]*Tf^3 + a1[5]*Tf^4
+  saidahfgw=a1[1] + a1[2]*Tf + a1[3]*Tf**2 + a1[4]*Tf**3 + a1[5]*Tf**4
   return(saidahfgw)
 
 def SW_LatentHeat(Tf, S):
@@ -89,7 +89,7 @@ def TEI_c(TEI_r):
    saidaTEC=0.1 * float(TEI_r) - 7
    return(saidaTEC)
 
-FFR_c =-1.61904761904762 + 0.00107142857142857 * FFR_r + 1.19047619047619E-06 * FFR_r^2
+FFR_c =-1.61904761904762 + 0.00107142857142857 * FFR_r + 1.19047619047619E-06 * FFR_r**2
 
 def TCI_c(TCI_r):
    saidatci=0.2 * float(TCI_r) -5
@@ -112,7 +112,7 @@ a15=0.508528516411701
 a16=-0.533945395042034
 
 def PFlux_AS7_allM(Cc,TEI_r, TCI_r):
-  return a10 + a11 * TEI_c(TEI_r) + a12 * FFR_c + a13 * TCI_c(TCI_r) + a14 * FeedC_c(Cc) + a15 * TEI_c(TEI_r) * FFR_c + a16 * FFR_c^2
+  return a10 + a11 * TEI_c(TEI_r) + a12 * FFR_c + a13 * TCI_c(TCI_r) + a14 * FeedC_c(Cc) + a15 * TEI_c(TEI_r) * FFR_c + a16 * FFR_c**2
 
 a20=59.3878010910582
 a21=8.16074166971919
@@ -125,7 +125,7 @@ a27=0.249090304647952
 a28=0.545163097718411 
 
 def TCO_AS7_allM(Cc,TEI_r,TCI_r):
-  return a20 + a21 * TEI_c(TEI_r) + a22 * FFR_c + a23 * TCI_c(TCI_r) + a24 * FeedC_c(Cc) + a25 * TEI_c(TEI_r) * FFR_c + a26 * TCI_c(TCI_r) * FFR_c + a27 * FFR_c * FeedC_c(Cc) + a28 * FFR_c^2
+  return a20 + a21 * TEI_c(TEI_r) + a22 * FFR_c + a23 * TCI_c(TCI_r) + a24 * FeedC_c(Cc) + a25 * TEI_c(TEI_r) * FFR_c + a26 * TCI_c(TCI_r) * FFR_c + a27 * FFR_c * FeedC_c(Cc) + a28 * FFR_c**2
 
 
 

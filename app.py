@@ -4,6 +4,8 @@ from shinywidgets import output_widget, reactive_read, register_widget
 from ipyleaflet import Map, Marker, Popup,leaflet
 from ipywidgets import HTML
 import pandas as pd
+from matplotlib.pyplot import scatter
+import numpy as np
 
 from read_db import find_db,info_from_db,give_loc,plot_capacity, cond_correction
 from md import md
@@ -40,12 +42,12 @@ app_ui = ui.page_fluid(
             ui.div(
                 ui.navset_tab_card(
                 ui.nav("Graph", ui.output_plot("cap_graph"),
-                                ui.output_plot("md_graph"),
-                                ui.output_plot("md_table")),
+                                ui.output_plot("md_graph")),
                 ui.nav("Table", ui.output_table("location_table")),
+                ui.nav("Simulation", ui.input_slider("simul_slider", "Module Id",0,100,0),ui.output_table("md_table"))
                 ),
                 style=css(
-                    display="flex", justify_content="center", align_items="center")
+                    display="flex", justify_content="center", align_items="center",width = "100%")
                 )
     ,
             style=css(
@@ -58,6 +60,7 @@ def server(input, output, session):
 
     #Utility parameters
     marker_db = []
+    md_db = []
     status = reactive.Value(0)
 
     #Map Widget
@@ -92,6 +95,7 @@ def server(input, output, session):
             choices=list(db[filters[i-1]].unique()),
             selected=None,)
 
+
     @reactive.Effect
     @reactive.event(input.run)
     def _():
@@ -102,18 +106,26 @@ def server(input, output, session):
             for marker in marker_db:
                 map.remove_layer(marker)
             marker_db.clear()
-
+            md_db.clear()
+        
+        text = "Capacity"if input.db()=="Global" else "Capacity__"
+        therm = "Thermal de" if input.db()=="Global" else "Thermal_de"
 
         for ind in db.index:
            marker = Marker(location=(db['Latitude'][ind], db['Longitude'][[ind]]),draggable=False)           
            #status = HTML()
-
            map.add_layer(marker)
            
            #status.value = "Description of Dessal:"
            #marker.popup = Popup(child=status)
            marker_db.append(marker)
-        
+           if "MED" in input.filter_2() or "MD" in input.filter_2():
+               md_db.append((md.full_return(db[text][ind],db["Location_t"][ind],
+                                                     cond_correction(db["Feedwater"][ind]),db[therm][ind],
+                                                     input.tx2(),input.abc(),input.TEI_r(),
+                                                     input.TCI_r(),input.SECe()),db[text][ind]))        
+        m_slider = len(md_db) if md_db != [] else 100
+        ui.update_slider("simul_slider",min=1,max=m_slider)
         status.set(2)
 
     @output
@@ -132,19 +144,13 @@ def server(input, output, session):
         return give_loc(db).style
     
     @output
-    @render.plot
-    @reactive.event(input.run)
+    @render.table
     def md_table():
-        dic = {"Module_Id":[],"Module Capacity":[]}
-        db,filters = create_filtered_db()
-        text = "Capacity"if input.db()=="Global" else "Capacity__"
-        therm = "Thermal de" if input.db()=="Global" else "Thermal_de"
-        for i in range(len(db)):
-            if "MED" in db.loc[i,"Technology"]:
-                dic["Module_Id"].append(i)
-                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],"",db.loc[i,therm]))
-        df = pd.DataFrame(dic)
-        return df.style
+        if len(md_db) != 0:
+            dic = {"Id":[input.simul_slider()-1],"MD Cost":[md_db[input.simul_slider()-1][0][0]],"Opex":[md_db[input.simul_slider()-1][0][1]],"Capex":[md_db[input.simul_slider()-1][0][0]]}
+            df = pd.DataFrame(dic)
+            return df
+
 
     @output
     @render.plot
@@ -157,20 +163,16 @@ def server(input, output, session):
     @render.plot
     @reactive.event(input.run)
     def md_graph():
-        dic = {"Module_Id":[],"Module Capacity":[]}
-        db,filters = create_filtered_db()
-        text = "Capacity"if input.db()=="Global" else "Capacity__"
-        therm = "Thermal de" if input.db()=="Global" else "Thermal_de"
-        for i in range(len(db)):
-            if "MED" in db.loc[i,"Technology"]:
+        if len(md_db) != 0:
+            dic = {"Module_Id":[],"Module MD Cost":[],"Module Capacity":[]}
+            for i in range(len(md_db)):
                 dic["Module_Id"].append(i)
-                dic["Module Capacity"].append(md.TWC(db.loc[i, text],db.loc[i,"Location_t"],
-                                                     cond_correction(db.loc[i,"Feedwater"]),db.loc[i,therm],
-                                                     tx2=input.tx2(),abc=input.abc(),TEI_r=input.TEI_r(),
-                                                     TCI_r = input.TCI_r(), SECe = input.SECe()))
-        
-        df = pd.DataFrame(dic)
-        return df.hist()
+                dic["Module MD Cost"].append(md_db[i][0][0])
+                dic["Module Capacity"].append(md_db[i][1])
+
+            x = np.array(dic["Module Capacity"])
+            y = np.array(dic["Module MD Cost"])
+            return scatter(x,y)
 
 app = App(app_ui, server)
 
